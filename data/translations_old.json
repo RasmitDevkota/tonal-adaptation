@@ -1,0 +1,394 @@
+{
+    "words": {
+        "Olivia": {
+            "translations": {
+                "googletrans": "奥利维亚",
+                "google": "奥利维亚",
+                "bing": "奥利维亚",
+                "alibaba": "奥利维亚",
+                "caiyun": "奥利维亚",
+                "iciba": "奥利维亚",
+                "qqFanyi": "奥利维亚",
+                "sogou": "奥利维亚",
+                "papago": "奥利维亚"
+            }
+        },
+        "Emma": {
+            "translations": {
+                "googletrans": "艾玛",
+                "google": "艾玛",
+                "bing": "艾玛",
+                "alibaba": "艾玛",
+                "caiyun": "艾玛",
+                "iciba": "代表字母m的通讯字码",
+                "qqFanyi": "",
+                "sogou": "女子名",
+                "papago": "埃玛"
+            }
+        },
+        "Oliver": {
+            "translations": {
+                "googletrans": "奥利弗",
+                "google": "奥利弗",
+                "bing": "奥利弗",
+                "alibaba": "奥利弗",
+                "caiyun": "奥利弗",
+                "iciba": "奥利弗",
+                "qqFanyi": "奥利弗",
+                "sogou": "奥利弗",
+                "papago": "奥利弗"
+            }
+        },
+        "Amelia": {
+            "translations": {
+                "googletrans": "阿米莉亚",
+                "google": "阿米莉亚",
+                "bing": "阿米莉亚",
+                "alibaba": "阿米莉亚",
+                "caiyun": "阿米莉亚",
+                "iciba": "先天性无肢",
+                "qqFanyi": "阿米莉亚",
+                "sogou": "无肢",
+                "papago": "阿梅利亚"
+            }
+        },
+        "Elijah": {
+            "translations": {
+                "googletrans": "以利亚",
+                "google": "以利亚",
+                "bing": "以 利亚",
+                "alibaba": "以利亚",
+                "caiyun": "以利亚",
+                "iciba": "以利亚",
+                "qqFanyi": "",
+                "sogou": "以利亚",
+                "papago": "以利亚"
+            }
+        },
+        "Ava": {
+            "translations": {
+                "googletrans": "艾娃",
+                "google": "ava",
+                "bing": "艾娃",
+                "alibaba": "Ava",
+                "caiyun": "艾娃",
+                "iciba": "麻醉椒",
+                "qqFanyi": "艾娃",
+                "sogou": "麻醉椒",
+                "papago": "阿瓦"
+            }
+        },
+        "Isabella": {
+            "translations": {
+                "googletrans": "伊莎贝拉",
+                "google": "伊莎贝拉",
+                "bing": "伊莎贝拉",
+                "alibaba": "伊莎贝拉",
+                "caiyun": "伊莎贝拉",
+                "iciba": "伊莎贝拉",
+                "qqFanyi": "",
+                "sogou": "伊莎贝拉",
+                "papago": "伊莎贝拉"
+            }
+        },
+        "Evelyn": {
+            "translations": {
+                "googletrans": "伊芙琳",
+                "google": "伊芙琳",
+                "bing": "伊芙琳",
+                "alibaba": "伊芙琳",
+                "caiyun": "伊芙琳",
+                "iciba": "伊夫林",
+                "qqFanyi": "伊芙琳",
+                "sogou": "伊夫林",
+                "papago": "伊夫林"
+            }
+        },
+        "Alexander": {
+            "translations": {
+                "googletrans": "亚历山大",
+                "google": "亚历山大",
+                "bing": "亚历山大",
+                "alibaba": "亚历山大",
+                "caiyun": "亚历山大",
+                "iciba": "",
+                "qqFanyi": "",
+                "sogou": "亚历山大",
+                "papago": "亚历山大"
+            }
+        },
+        "Elizabeth": {
+            "translations": {
+                "googletrans": "伊丽莎白",
+                "google": "伊丽莎白",
+                "bing": "伊丽莎白",
+                "alibaba": "伊丽莎白",
+                "caiyun": "伊丽莎白",
+                "iciba": "伊丽莎白",
+                "qqFanyi": "伊丽莎白",
+                "sogou": "伊丽莎白一世",
+                "papago": "伊丽莎白"
+            }
+        },
+        "Eleanor": {
+            "translations": {
+                "googletrans": "埃莉诺",
+                "google": "埃莉诺",
+                "bing": "埃莉 诺",
+                "alibaba": "埃莉诺",
+                "caiyun": "埃莉诺",
+                "iciba": "埃莉诺",
+                "qqFanyi": "埃莉诺",
+                "sogou": "埃莉诺",
+                "papago": "埃莉诺"
+            }
+        },
+        "Ella": {
+            "translations": {
+                "googletrans": "艾拉",
+                "google": "埃拉",
+                "bing": "艾拉",
+                "alibaba": "埃拉",
+                "caiyun": "艾拉",
+                "iciba": "埃拉",
+                "qqFanyi": "埃拉",
+                "sogou": "欧洲远程通讯局(European Long Lines Agency)",
+                "papago": "埃拉"
+            }
+        },
+        "Abigail": {
+            "translations": {
+                "googletrans": "阿比盖尔",
+                "google": "阿比盖尔",
+                "bing": "阿比盖尔",
+                "alibaba": "阿比盖尔",
+                "caiyun": "阿比盖尔",
+                "iciba": "阿比盖尔",
+                "qqFanyi": "阿比盖尔",
+                "sogou": "阿比盖尔",
+                "papago": "阿比盖尔"
+            }
+        },
+        "Avery": {
+            "translations": {
+                "googletrans": "艾弗里",
+                "google": "艾利",
+                "bing": "艾弗里",
+                "alibaba": "艾弗里",
+                "caiyun": "艾芙莉",
+                "iciba": "艾弗里",
+                "qqFanyi": "艾弗里",
+                "sogou": "艾弗里",
+                "papago": "艾弗里"
+            }
+        },
+        "Ethan": {
+            "translations": {
+                "googletrans": "伊森",
+                "google": "伊桑",
+                "bing": "伊森",
+                "alibaba": "伊森",
+                "caiyun": "伊森",
+                "iciba": "伊桑",
+                "qqFanyi": "",
+                "sogou": "伊桑",
+                "papago": "伊森"
+            }
+        },
+        "Emily": {
+            "translations": {
+                "googletrans": "艾米丽",
+                "google": "艾米丽",
+                "bing": "艾米丽",
+                "alibaba": "艾米丽",
+                "caiyun": "艾米丽",
+                "iciba": "埃米莉",
+                "qqFanyi": "艾米丽",
+                "sogou": "埃米莉",
+                "papago": "艾米丽"
+            }
+        },
+        "Aria": {
+            "translations": {
+                "googletrans": "咏叹调",
+                "google": "咏叹调",
+                "bing": "咏叹调",
+                "alibaba": "咏叹调",
+                "caiyun": "艾瑞亚",
+                "iciba": "咏叹调",
+                "qqFanyi": "ARIA",
+                "sogou": "咏叹调",
+                "papago": "阿里亚"
+            }
+        },
+        "Owen": {
+            "translations": {
+                "googletrans": "欧文",
+                "google": "欧文",
+                "bing": "欧文",
+                "alibaba": "欧文",
+                "caiyun": "欧文",
+                "iciba": "欧文",
+                "qqFanyi": "",
+                "sogou": "欧文",
+                "papago": "欧文"
+            }
+        },
+        "Asher": {
+            "translations": {
+                "googletrans": "亚瑟",
+                "google": "Asher",
+                "bing": "阿瑟",
+                "alibaba": "阿什",
+                "caiyun": "亚设",
+                "iciba": "炭化器",
+                "qqFanyi": "",
+                "sogou": "亚设",
+                "papago": "阿谢尔"
+            }
+        },
+        "Aiden": {
+            "translations": {
+                "googletrans": "艾登",
+                "google": "艾登",
+                "bing": "艾 登",
+                "alibaba": "艾登",
+                "caiyun": "艾登",
+                "iciba": "艾登",
+                "qqFanyi": "艾登",
+                "sogou": "艾登",
+                "papago": "艾登"
+            }
+        },
+        "Ellie": {
+            "translations": {
+                "googletrans": "艾莉",
+                "google": "艾莉",
+                "bing": "艾莉",
+                "alibaba": "艾莉",
+                "caiyun": "艾莉",
+                "iciba": "埃莉",
+                "qqFanyi": "艾莉",
+                "sogou": "埃莉",
+                "papago": "埃莉"
+            }
+        },
+        "Isla": {
+            "translations": {
+                "googletrans": "伊斯拉",
+                "google": "isla",
+                "bing": "伊斯拉",
+                "alibaba": "岛",
+                "caiyun": "艾拉",
+                "iciba": "伊斯拉",
+                "qqFanyi": "",
+                "sogou": "伊斯拉",
+                "papago": "伊斯拉"
+            }
+        },
+        "Aurora": {
+            "translations": {
+                "googletrans": "极光",
+                "google": "极光",
+                "bing": "极光",
+                "alibaba": "极光",
+                "caiyun": "奥罗拉",
+                "iciba": "奥罗拉",
+                "qqFanyi": "奥罗拉",
+                "sogou": "奥罗拉",
+                "papago": "奥罗拉"
+            }
+        },
+        "Emilia": {
+            "translations": {
+                "googletrans": "艾米莉亚",
+                "google": "艾米利亚",
+                "bing": "艾米莉亚",
+                "alibaba": "艾米莉亚",
+                "caiyun": "Emilia",
+                "iciba": "伊米莉亚",
+                "qqFanyi": "N.爱米利娅",
+                "sogou": "伊米莉亚",
+                "papago": "埃米利亚"
+            }
+        },
+        "Isaac": {
+            "translations": {
+                "googletrans": "艾萨克",
+                "google": "以撒",
+                "bing": "艾萨克",
+                "alibaba": "艾萨克",
+                "caiyun": "艾萨克",
+                "iciba": "艾萨克",
+                "qqFanyi": "艾萨克",
+                "sogou": "以撒",
+                "papago": "艾萨克"
+            }
+        },
+        "Anthony": {
+            "translations": {
+                "googletrans": "安东尼",
+                "google": "安东尼",
+                "bing": "安东尼",
+                "alibaba": "安东尼",
+                "caiyun": "安东尼",
+                "iciba": "安东尼",
+                "qqFanyi": "",
+                "sogou": "安东尼",
+                "papago": "安东尼"
+            }
+        },
+        "Addison": {
+            "translations": {
+                "googletrans": "艾迪生",
+                "google": "艾迪生",
+                "bing": "艾迪生",
+                "alibaba": "爱迪生",
+                "caiyun": "Addison",
+                "iciba": "阿狄森",
+                "qqFanyi": "艾迪生",
+                "sogou": "艾迪生",
+                "papago": "艾迪生"
+            }
+        },
+        "Eliana": {
+            "translations": {
+                "googletrans": "埃利安娜",
+                "google": "埃里亚娜",
+                "bing": "埃莉安娜",
+                "alibaba": "埃莉安娜",
+                "caiyun": "FAILED",
+                "iciba": "埃利安娜",
+                "qqFanyi": "",
+                "sogou": "埃利安娜",
+                "papago": "埃利亚纳"
+            }
+        },
+        "Elias": {
+            "translations": {
+                "googletrans": "埃利亚斯",
+                "google": "埃里亚斯",
+                "bing": "伊莱亚斯",
+                "alibaba": "埃利亚斯",
+                "caiyun": "以利亚",
+                "iciba": "FAILED",
+                "qqFanyi": "",
+                "sogou": "伊莱亚斯（希伯来先知）",
+                "papago": "FAILED"
+            }
+        },
+        "Everly": {
+            "translations": {
+                "googletrans": "埃弗利",
+                "google": "埃斯利",
+                "bing": "埃弗利",
+                "alibaba": "永远",
+                "caiyun": "艾弗莉",
+                "iciba": "FAILED",
+                "qqFanyi": "FAILED",
+                "sogou": "FAILED",
+                "papago": "埃弗利"
+            }
+        }
+    }
+}
