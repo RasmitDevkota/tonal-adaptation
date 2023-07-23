@@ -46,8 +46,17 @@ with open("./data/corpus.csv", "r+") as corpus_file:
     words_en = [line.strip("\n\r") for line in corpus_file.readlines()]
 
 with open("./data/translations.json", "r") as translations_json_file:
-    translations_json_file.seek(0)
-    translations_json = json.load(translations_json_file)
+    translations_raw = translations_json_file.read()
+
+    if len(translations_raw) == 0:
+        translations_json = {
+            "words" : {
+
+            }
+        }
+    else:
+        translations_json = json.loads(translations_raw)
+    
     words_json = translations_json["words"]
 
 def save_progress():

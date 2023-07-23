@@ -90,11 +90,11 @@ for word_en, word_data in words_good_json.items():
         word_en_arpa = pronouncing.phones_for_word(word_en)
 
         if len(word_en_arpa) == 0:
-            failed_words_json["words"][word_en] = f"phones_for_word: {word_en_arpa}"
+            failed_words_json["words"][word_en] = "phones_for_word"
             continue
 
         if len(word_en_arpa) > 1 and (word_en_arpa[0].split(" ")[0] != word_en_arpa[1].split(" ")[0]):
-            failed_words_json["words"][word_en] = "onset_arpa_variation"
+            failed_words_json["words"][word_en] = f"onset_arpa_variation: {word_en_arpa}"
 
         output_datum["word_en_arpa"] = word_en_arpa[0].split(" ")
 

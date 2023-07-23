@@ -2,6 +2,22 @@ import ipasymbols
 
 vowels = ipasymbols.phonlist(query={'type': 'vowel'})
 
+def vowel_qualities(onset):
+    onset_vowels = ""
+
+    for letter in list(onset):
+        if letter in vowels:
+            onset_vowels += letter
+
+    vowels_count = len(onset_vowels)
+
+    vowel = vowels[0]
+    vowel_props = ipasymbols.props(vowel, ["height", "backness"])
+    height_binaries = [1 if vowel_props["height"] == level else 0 for level in ["close", "near-close", "close-mid", "mid", "open-mid", "near-open", "open"]]
+    backness_binaries = [1 if vowel_props["backness"] == level else 0 for level in ["fornt", "central", "back"]]
+
+    return [vowels_count] + height_binaries + backness_binaries
+
 backness_weights = [
     3,
     2,
@@ -55,3 +71,10 @@ stress_nonlinearizations = {
 def nonlinearize_stresses(stresses, method):
     average_stress = sum(stresses)/len(stresses)
     return [stress_nonlinearizations[method](stress, average_stress) for stress in stresses]
+
+tone_mappings = {
+    1: [0,0,1],
+    2: [1,0,0],
+    3: [1,math.sqrt(0.5),0],
+    4: [1,math.sqrt(0.5),0.5]
+}
