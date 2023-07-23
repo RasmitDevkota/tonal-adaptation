@@ -1,3 +1,4 @@
+import math
 import ipasymbols
 
 vowels = ipasymbols.phonlist(query={'type': 'vowel'})
