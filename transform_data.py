@@ -58,10 +58,12 @@ def map_vowels(onset):
             backness_avg = backness_avg + backness
             height_avg = height_avg + height
 
-    backness_avg = backness_avg / vowel_count
-    height_avg = height_avg / vowel_count
-
-    return [backness_avg, height_avg]
+    if vowel_count > 0:
+        backness_avg = backness_avg / vowel_count
+        height_avg = height_avg / vowel_count
+        return [backness_avg, height_avg]
+    else:
+        return [0,0]
 
 stress_nonlinearizations = {
     "recip": lambda stress, average_stress : average_stress/stress if stress > 0 else 0,
