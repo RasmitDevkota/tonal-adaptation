@@ -1,0 +1,98 @@
+DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=5,
+                       min_samples_split=10, min_weight_fraction_leaf=0.0,
+                       random_state=100, splitter='best')
+|--- P(Onset|T=1) <= 0.00
+|   |--- P(Onset|T=3) <= 0.08
+|   |   |--- back <= 0.50
+|   |   |   |--- class: 4
+|   |   |--- back >  0.50
+|   |   |   |--- class: 4
+|   |--- P(Onset|T=3) >  0.08
+|   |   |--- class: 2
+|--- P(Onset|T=1) >  0.00
+|   |--- P(T=3|Onset) <= 0.02
+|   |   |--- P(T=1|Onset) <= 0.03
+|   |   |   |--- P(T=3|Onset) <= 0.01
+|   |   |   |   |--- Onset N(C) <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Onset N(C) >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- P(T=3|Onset) >  0.01
+|   |   |   |   |--- class: 1
+|   |   |--- P(T=1|Onset) >  0.03
+|   |   |   |--- P(T=3|Onset) <= 0.01
+|   |   |   |   |--- class: 1
+|   |   |   |--- P(T=3|Onset) >  0.01
+|   |   |   |   |--- class: 1
+|   |--- P(T=3|Onset) >  0.02
+|   |   |--- P(T=3|Onset) <= 0.08
+|   |   |   |--- F(Onset) <= 8.00
+|   |   |   |   |--- class: 4
+|   |   |   |--- F(Onset) >  8.00
+|   |   |   |   |--- class: 4
+|   |   |--- P(T=3|Onset) >  0.08
+|   |   |   |--- initial_stress_en <= 0.50
+|   |   |   |   |--- P(T=3|Onset) <= 0.09
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- P(T=3|Onset) >  0.09
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- initial_stress_en >  0.50
+|   |   |   |   |--- P(Onset|T=1) <= 0.15
+|   |   |   |   |   |--- initial_stress_en <= 1.50
+|   |   |   |   |   |   |--- P(Onset|T=1) <= 0.06
+|   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |--- P(Onset|T=1) >  0.06
+|   |   |   |   |   |   |   |--- P(T=3|Onset) <= 0.12
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- P(T=3|Onset) >  0.12
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- initial_stress_en >  1.50
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |--- P(Onset|T=1) >  0.15
+|   |   |   |   |   |--- class: 1
+
+安东尼: Āndōngní w/ sandhi,  āndōngní w/o sandhi
+19 incorrectly predicted tone 3 (guessed tone 4 w/ decision path [ 0  6 16 17 19])
+奥布里: Àobùlǐ w/ sandhi,  àobùlǐ w/o sandhi
+27 incorrectly predicted tone 3 (guessed tone 4 w/ decision path [ 0  6 16 20 24 25 26 27])
+亚当斯: Yàdāngsī w/ sandhi,  yàdāngsī w/o sandhi
+15 incorrectly predicted tone 3 (guessed tone 1 w/ decision path [ 0  6  7 13 15])
+伊甸园: yīdiànyuán w/ sandhi,  yīdiānyuán w/o sandhi
+14 incorrectly predicted tone 3 (guessed tone 1 w/ decision path [ 0  6  7 13 14])
+艾斯: àisī w/ sandhi,  àisī w/o sandhi
+3 incorrectly predicted tone 3 (guessed tone 4 w/ decision path [0 1 2 3])
+test_stat_2 (5.924355803721482) significant for (([1, False, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 2, 0, 0, 0.3333333333333333, 0, 0, 0, 0, 0], 2, 2))
+test_stat_3 (3.256079726852255) significant for (([1, False, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 2, 0.0055248618784530384, 0, 0, 0, 0.06666666666666667, 0, 0, 0], 1, 1))
+test_stat_2 (5.924355803721482) significant for (([1, False, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 3, 0, 0, 0.16666666666666666, 0, 0, 0, 0.015503875968992248, 0], 4, 2))
+test_stat_3 (3.256079726852255) significant for (([1, False, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9, 0.03867403314917127, 0, 0, 0, 0.06666666666666667, 0, 0.007751937984496124, 0], 1, 1))
+test_stat_3 (3.256079726852255) significant for (([1, False, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 1, 9, 0.03867403314917127, 0, 0, 0, 0.06666666666666667, 0, 0.007751937984496124, 0], 1, 1))
+test_stat_3 (3.256079726852255) significant for (([1, False, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9, 0.03867403314917127, 0, 0, 0, 0.06666666666666667, 0, 0.007751937984496124, 0], 4, 1))
+test_stat_3 (3.256079726852255) significant for (([1, False, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 2, 0.0055248618784530384, 0, 0, 0, 0.06666666666666667, 0, 0, 0], 3, 1))
+test_stat_3 (3.256079726852255) significant for (([1, False, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9, 0.03867403314917127, 0, 0, 0, 0.06666666666666667, 0, 0.007751937984496124, 0], 1, 1))
+test_stat_2 (5.924355803721482) significant for (([1, False, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 3, 0, 0, 0.16666666666666666, 0, 0, 0, 0.015503875968992248, 0], 2, 2))
+tone 1 accuracy: 53/60 (88.33333333333333%)
+tone 2 accuracy: 2/2 (100.0%)
+tone 3 accuracy: 0/5 (0.0%)
+tone 4 accuracy: 19/43 (44.18604651162791%)
+[[53  0  0  7]
+ [ 0  2  0  0]
+ [ 2  0  0  3]
+ [23  1  0 19]]
+67.27272727272727
+0.3773380006971987
+[0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.00556003
+ 0.00454251 0.03896132 0.         0.0123837  0.33702384 0.
+ 0.06764702 0.         0.02141318 0.         0.5124684  0.        ]
+              precision    recall  f1-score   support
+
+           1       0.68      0.88      0.77        60
+           2       0.67      1.00      0.80         2
+           3       0.00      0.00      0.00         5
+           4       0.66      0.44      0.53        43
+
+    accuracy                           0.67       110
+   macro avg       0.50      0.58      0.52       110
+weighted avg       0.64      0.67      0.64       110

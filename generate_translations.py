@@ -22,26 +22,6 @@ translators_selected = [
     # may be failing on certain words? retry with try/except
 ]
 
-# json template:
-"""
-{
-    "words": {
-        "word1": {
-            "translations": [
-                {
-                    "translation1": [],
-                    "translation2": []
-                }
-            ]
-        },
-        "word2": {
-            "translation1": [],
-            "translation2": []
-        }
-    }
-}
-"""
-
 with open("./data/corpus.csv", "r+") as corpus_file:
     words_en = [line.strip("\n\r") for line in corpus_file.readlines()]
 
@@ -56,7 +36,7 @@ with open("./data/translations.json", "r") as translations_json_file:
         }
     else:
         translations_json = json.loads(translations_raw)
-    
+
     words_json = translations_json["words"]
 
 def save_progress():

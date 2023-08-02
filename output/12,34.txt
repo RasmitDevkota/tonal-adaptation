@@ -1,0 +1,131 @@
+DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=5,
+                       min_samples_split=10, min_weight_fraction_leaf=0.0,
+                       random_state=100, splitter='best')
+1  |--- Onset N(V) <= 1.50
+2  |   |--- P(T=3|Onset) <= 0.01
+3  |   |   |--- P(Onset|T=1) <= 0.00
+   |   |   |   |--- class: Tone 3/4
+4  |   |   |--- P(Onset|T=1) >  0.00
+5  |   |   |   |--- P(T=1|Onset) <= 0.03
+6  |   |   |   |   |--- open <= 0.50
+   |   |   |   |   |   |--- class: Tone 1/2
+7  |   |   |   |   |--- open >  0.50
+   |   |   |   |   |   |--- class: Tone 1/2
+8  |   |   |   |--- P(T=1|Onset) >  0.03
+   |   |   |   |   |--- class: Tone 1/2
+9  |   |--- P(T=3|Onset) >  0.01
+10 |   |   |--- P(Onset|T=1) <= 0.01
+   |   |   |   |--- class: Tone 3/4
+11 |   |   |--- P(Onset|T=1) >  0.01
+12 |   |   |   |--- open <= 0.50
+13 |   |   |   |   |--- initial_stress_en <= 0.50
+   |   |   |   |   |   |--- class: Tone 1/2
+14 |   |   |   |   |--- initial_stress_en >  0.50
+15 |   |   |   |   |   |--- P(Onset|T=1) <= 0.02
+   |   |   |   |   |   |   |--- class: Tone 1/2
+16 |   |   |   |   |   |--- P(Onset|T=1) >  0.02
+17 |   |   |   |   |   |   |--- P(T=3|Onset) <= 0.09
+18 |   |   |   |   |   |   |   |--- near-open <= 0.50
+   |   |   |   |   |   |   |   |   |--- class: Tone 1/2
+19 |   |   |   |   |   |   |   |--- near-open >  0.50
+   |   |   |   |   |   |   |   |   |--- class: Tone 1/2
+20 |   |   |   |   |   |   |--- P(T=3|Onset) >  0.09
+21 |   |   |   |   |   |   |   |--- F(Onset) <= 51.00
+   |   |   |   |   |   |   |   |   |--- class: Tone 1/2
+22 |   |   |   |   |   |   |   |--- F(Onset) >  51.00
+   |   |   |   |   |   |   |   |   |--- class: Tone 1/2
+23 |   |   |   |--- open >  0.50
+24 |   |   |   |   |--- initial_stress_en <= 0.50
+   |   |   |   |   |   |--- class: Tone 1/2
+25 |   |   |   |   |--- initial_stress_en >  0.50
+   |   |   |   |   |   |--- class: Tone 1/2
+26 |--- Onset N(V) >  1.50
+27 |   |--- back <= 0.50
+28 |   |   |--- open <= 0.50
+   |   |   |   |--- class: Tone 3/4
+29 |   |   |--- open >  0.50
+   |   |   |   |--- class: Tone 3/4
+30 |   |--- back >  0.50
+   |   |   |--- class: Tone 3/4
+{'Tone 1/2': 0, 'Tone 3/4': 0} {'Tone 1/2': 0, 'Tone 3/4': 0}
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+22 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 22])
+15 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 15])
+伊丽莎白: yīlìshābái w/ sandhi, yīlìsuōbái w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+阿比盖尔: ābǐgài'ěr w/ sandhi, ābǐgàiěr w/o sandhi gives: Tone 3/4 vs. Tone 1/2
+13 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 13])
+3 incorrectly predicted tone Tone 1/2 (guessed tone Tone 3/4 w/ decision path [0 1 2 3])
+6 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [0 1 2 4 5 6])
+13 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 13])
+25 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 23 25])
+25 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 23 25])
+22 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 22])
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+28 incorrectly predicted tone Tone 1/2 (guessed tone Tone 3/4 w/ decision path [ 0 26 27 28])
+埃琳娜: āilínnà w/ sandhi, āilínnuó w/o sandhi gives: Tone 3/4 vs. Tone 3/4
+30 incorrectly predicted tone Tone 1/2 (guessed tone Tone 3/4 w/ decision path [ 0 26 30])
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+13 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 13])
+阿德里安: ādélǐ'ān w/ sandhi, ādélǐān w/o sandhi gives: Tone 3/4 vs. Tone 3/4
+阿克塞尔: ākèsāi'ěr w/ sandhi, ākèsāiěr w/o sandhi gives: Tone 3/4 vs. Tone 1/2
+22 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 22])
+伊恩: yī'ēn w/ sandhi, yīēn w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+安娜: ānnà w/ sandhi, ānnuó w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+阿丽亚娜: ālìyànà w/ sandhi, ālìyànuó w/o sandhi gives: Tone 3/4 vs. Tone 1/2
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+雅典娜: yǎdiǎnnà w/ sandhi, yādiǎnnuó w/o sandhi gives: Tone 1/2 vs. Tone 3/4
+28 incorrectly predicted tone Tone 1/2 (guessed tone Tone 3/4 w/ decision path [ 0 26 27 28])
+28 incorrectly predicted tone Tone 1/2 (guessed tone Tone 3/4 w/ decision path [ 0 26 27 28])
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+伊莎贝尔: yīsuōbèi'ěr w/ sandhi, yīsuōbèiěr w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+伊甸园: yīdiànyuán w/ sandhi, yīdiānyuán w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+阿切尔: āqiè'ěr w/ sandhi, āqièěr w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+阿里安娜: ālǐ'ānnuó w/ sandhi, ālǐānnuó w/o sandhi gives: Tone 3/4 vs. Tone 3/4
+伊莎贝尔: yīsuōbèi'ěr w/ sandhi, yīsuōbèiěr w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+阿德里尔: ādélǐ'ěr w/ sandhi, ādélǐěr w/o sandhi gives: Tone 3/4 vs. Tone 3/4
+22 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 22])
+艾略特: ài'ètè w/ sandhi, àiètè w/o sandhi gives: Tone 3/4 vs. Tone 1/2
+24 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 23 24])
+15 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 15])
+22 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 22])
+25 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 23 25])
+埃利奥特: āilì'àotè w/ sandhi, āilìàotè w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+阿里埃拉: ālǐ'āilā w/ sandhi, ālǐāilā w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+安东尼奥: āndōngní'ào w/ sandhi, āndōngníào w/o sandhi gives: Tone 3/4 vs. Tone 1/2
+13 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 13])
+25 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 23 25])
+伊曼纽尔: yīmànniǔ'ěr w/ sandhi, yīmànniǔěr w/o sandhi gives: Tone 1/2 vs. Tone 3/4
+10 incorrectly predicted tone Tone 1/2 (guessed tone Tone 3/4 w/ decision path [ 0  1  9 10])
+25 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 23 25])
+阿贝尔: ābèi'ěr w/ sandhi, ābèiěr w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+22 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 22])
+30 incorrectly predicted tone Tone 1/2 (guessed tone Tone 3/4 w/ decision path [ 0 26 30])
+埃尔西: āi'ěrxi w/ sandhi, āiěrxi w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+艾丽尔: àilì'ěr w/ sandhi, àilìěr w/o sandhi gives: Tone 1/2 vs. Tone 1/2
+21 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 21])
+8 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [0 1 2 4 8])
+22 incorrectly predicted tone Tone 3/4 (guessed tone Tone 1/2 w/ decision path [ 0  1  9 11 12 14 16 20 22])
+Tone 1/2 accuracy: 55/62 (88.70967741935483%)
+Tone 3/4 accuracy: 17/48 (35.41666666666667%)
+[[55  7]
+ [31 17]]
+65.45454545454545
+0.28970309458550797
+[0.417338   0.         0.         0.         0.         0.
+ 0.         0.         0.04490478 0.         0.         0.0223453
+ 0.         0.03200354 0.         0.00133471 0.23263451 0.
+ 0.         0.         0.03880521 0.         0.21063394 0.        ]
+              precision    recall  f1-score   support
+
+    Tone 1/2       0.64      0.89      0.74        62
+    Tone 3/4       0.71      0.35      0.47        48
+
+    accuracy                           0.65       110
+   macro avg       0.67      0.62      0.61       110
+weighted avg       0.67      0.65      0.62       110

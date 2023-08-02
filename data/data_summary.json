@@ -1,0 +1,70 @@
+{
+    "tests": {
+        "template": {
+            "title": "Template",
+            "date": "",
+            "time": "",
+            "translators": [ ],
+            "base_translator": [ ],
+            "data_parameters": {
+                "context_prefix": "My name is ",
+                "ignore_untranslated": false,
+                "illegal_chars_regex": "[a-zA-Z ]|[^\u4e00-\u9fff]",
+                "ignore_illegal_chars": false,
+                "ignore_inconsistent": [ ],
+                "word_recovery": false,
+                "accept_onset_arpa_variation": false,
+                "allowed_feature_redundancies": [ ]
+            },
+            "feature_labels": [ ],
+            "class_labels": [ ],
+            "n_samples": 0,
+            "train_size": 0,
+            "test_size": 0,
+            "split_random_state": 100,
+            "stratify": "y",
+            "criterion": "gini",
+            "splitter": "best",
+            "tree_random_state": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 5,
+            "confusion_matrix": [ ],
+            "accuracy": 0.0,
+            "tone_corrects": [ ],
+            "notes": ""
+        },
+        "base": {
+            "title": "Base",
+            "date": "",
+            "time": "",
+            "translators": [],
+            "base_translator": [],
+            "data_parameters": {
+                "context_prefix": "My name is ",
+                "ignore_untranslated": false,
+                "illegal_chars_regex": "[a-zA-Z ]|[^\u4e00-\u9fff]",
+                "ignore_illegal_chars": false,
+                "ignore_inconsistent": [],
+                "word_recovery": false,
+                "accept_onset_arpa_variation": false,
+                "allowed_feature_redundancies": []
+            },
+            "feature_labels": [],
+            "class_labels": [],
+            "n_samples": 0,
+            "train_size": 0,
+            "test_size": 0,
+            "split_random_state": 100,
+            "stratify": "y",
+            "criterion": "gini",
+            "splitter": "best",
+            "tree_random_state": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 5,
+            "confusion_matrix": [],
+            "accuracy": 0.0,
+            "tone_corrects": [],
+            "notes": ""
+        }
+    }
+}

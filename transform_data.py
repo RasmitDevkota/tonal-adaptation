@@ -12,12 +12,25 @@ def vowel_qualities(onset):
 
     vowels_count = len(onset_vowels)
 
-    vowel = vowels[0]
+    vowel = onset_vowels[0]
+    onset_length = "Y" in onset
     vowel_props = ipasymbols.props(vowel, ["height", "backness"])
     height_binaries = [1 if vowel_props["height"] == level else 0 for level in ["close", "near-close", "close-mid", "mid", "open-mid", "near-open", "open"]]
-    backness_binaries = [1 if vowel_props["backness"] == level else 0 for level in ["fornt", "central", "back"]]
+    backness_binaries = [1 if vowel_props["backness"] == level else 0 for level in ["front", "central", "back"]]
 
-    return [vowels_count] + height_binaries + backness_binaries
+    return [vowels_count, onset_length] + height_binaries + backness_binaries
+
+def map_tone(tone):
+    if tone == 1:
+        return "Tone 1/2"
+    elif tone == 2:
+        return "Tone 1/2"
+    elif tone == 3:
+        return "Tone 3/4"
+    elif tone == 4:
+        return "Tone 3/4"
+    else:
+        return "Tone 0"
 
 backness_weights = [
     3,
