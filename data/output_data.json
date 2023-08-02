@@ -11888,6 +11888,835 @@
             ],
             "onset_zh_ipa": "a˥",
             "onset_tone_num": 1
+        },
+        "Ally": {
+            "word_en": "Ally",
+            "word_zh": "艾莉",
+            "word_en_arpa": [
+                "AE1",
+                "L",
+                "AY0"
+            ],
+            "syllables_en_arpa": [
+                "AE1",
+                "L AY0"
+            ],
+            "syllables_en_ipa": [
+                "æ",
+                "laɪ"
+            ],
+            "onset_en_ipa": "æ",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a4i",
+                "li2"
+            ],
+            "onset_zh_pinyin": "a4i",
+            "syllables_zh_ipa": [
+                "aɪ˥˩",
+                "li˧˥"
+            ],
+            "onset_zh_ipa": "aɪ˥˩",
+            "onset_tone_num": 4
+        },
+        "Ariane": {
+            "word_en": "Ariane",
+            "word_zh": "阿丽亚娜",
+            "word_en_arpa": [
+                "EH2",
+                "R",
+                "IY0",
+                "AE1",
+                "N"
+            ],
+            "syllables_en_arpa": [
+                "EH2",
+                "R IY0",
+                "AE1 N"
+            ],
+            "syllables_en_ipa": [
+                "e",
+                "ri",
+                "æn"
+            ],
+            "onset_en_ipa": "e",
+            "stresses_en": [
+                2,
+                0,
+                1
+            ],
+            "word_zh_pinyin": [
+                "a1",
+                "li4",
+                "ya4",
+                "nuo2"
+            ],
+            "onset_zh_pinyin": "a1",
+            "syllables_zh_ipa": [
+                "a˥",
+                "li˥˩",
+                "ja˥˩",
+                "nwɔ˧˥"
+            ],
+            "onset_zh_ipa": "a˥",
+            "onset_tone_num": 1
+        },
+        "Eunice": {
+            "word_en": "Eunice",
+            "word_zh": "尤妮斯",
+            "word_en_arpa": [
+                "Y",
+                "UW1",
+                "N",
+                "AH0",
+                "S"
+            ],
+            "syllables_en_arpa": [
+                "Y UW1",
+                "N AH0 S"
+            ],
+            "syllables_en_ipa": [
+                "ju",
+                "nəs"
+            ],
+            "onset_en_ipa": "ju",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "yo2u",
+                "ni1",
+                "si1"
+            ],
+            "onset_zh_pinyin": "yo2u",
+            "syllables_zh_ipa": [
+                "yoʊ˧˥",
+                "ni˥",
+                "sɯ˥"
+            ],
+            "onset_zh_ipa": "yoʊ˧˥",
+            "onset_tone_num": 2
+        },
+        "Al": {
+            "word_en": "Al",
+            "word_zh": "艾尔",
+            "word_en_arpa": [
+                "AE1",
+                "L"
+            ],
+            "syllables_en_arpa": [
+                "AE1 L"
+            ],
+            "syllables_en_ipa": [
+                "æl"
+            ],
+            "onset_en_ipa": "æl",
+            "stresses_en": [
+                1
+            ],
+            "word_zh_pinyin": [
+                "a4i",
+                "e3r"
+            ],
+            "onset_zh_pinyin": "a4i",
+            "syllables_zh_ipa": [
+                "aɪ˥˩",
+                "ɑɻ˧˩˧"
+            ],
+            "onset_zh_ipa": "aɪ˥˩",
+            "onset_tone_num": 4
+        },
+        "Antony": {
+            "word_en": "Antony",
+            "word_zh": "安东尼",
+            "word_en_arpa": [
+                "AE1",
+                "N",
+                "T",
+                "AH0",
+                "N",
+                "IY0"
+            ],
+            "syllables_en_arpa": [
+                "AE1 N",
+                "T AH0",
+                "N IY0"
+            ],
+            "syllables_en_ipa": [
+                "æn",
+                "tə",
+                "ni"
+            ],
+            "onset_en_ipa": "æn",
+            "stresses_en": [
+                1,
+                0,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1n",
+                "do1ng",
+                "ni2"
+            ],
+            "onset_zh_pinyin": "a1n",
+            "syllables_zh_ipa": [
+                "an˥",
+                "tʊŋ˥",
+                "ni˧˥"
+            ],
+            "onset_zh_ipa": "an˥",
+            "onset_tone_num": 1
+        },
+        "Arnold": {
+            "word_en": "Arnold",
+            "word_zh": "阿诺德",
+            "word_en_arpa": [
+                "AA1",
+                "R",
+                "N",
+                "AH0",
+                "L",
+                "D"
+            ],
+            "syllables_en_arpa": [
+                "AA1 R",
+                "N AH0 L D"
+            ],
+            "syllables_en_ipa": [
+                "ɑr",
+                "nəld"
+            ],
+            "onset_en_ipa": "ɑr",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1",
+                "nuo4",
+                "de2"
+            ],
+            "onset_zh_pinyin": "a1",
+            "syllables_zh_ipa": [
+                "a˥",
+                "nwɔ˥˩",
+                "tɤ˧˥"
+            ],
+            "onset_zh_ipa": "a˥",
+            "onset_tone_num": 1
+        },
+        "Irvin": {
+            "word_en": "Irvin",
+            "word_zh": "欧文",
+            "word_en_arpa": [
+                "ER1",
+                "V",
+                "IH0",
+                "N"
+            ],
+            "syllables_en_arpa": [
+                "ER1",
+                "V IH0 N"
+            ],
+            "syllables_en_ipa": [
+                "ɜr",
+                "vɪn"
+            ],
+            "onset_en_ipa": "ɜr",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "o1u",
+                "we2n"
+            ],
+            "onset_zh_pinyin": "o1u",
+            "syllables_zh_ipa": [
+                "oʊ˥",
+                "wən˧˥"
+            ],
+            "onset_zh_ipa": "oʊ˥",
+            "onset_tone_num": 1
+        },
+        "Ignacio": {
+            "word_en": "Ignacio",
+            "word_zh": "伊格纳西奥",
+            "word_en_arpa": [
+                "IH2",
+                "G",
+                "N",
+                "AA1",
+                "S",
+                "IY0",
+                "OW0"
+            ],
+            "syllables_en_arpa": [
+                "IH2 G",
+                "N AA1",
+                "S IY0",
+                "OW0"
+            ],
+            "syllables_en_ipa": [
+                "ɪg",
+                "nɑ",
+                "si",
+                "oʊ"
+            ],
+            "onset_en_ipa": "ɪg",
+            "stresses_en": [
+                2,
+                1,
+                0,
+                0
+            ],
+            "word_zh_pinyin": [
+                "yi1",
+                "ge2",
+                "na4",
+                "xi",
+                "a4o"
+            ],
+            "onset_zh_pinyin": "yi1",
+            "syllables_zh_ipa": [
+                "i˥",
+                "kɤ˧˥",
+                "na˥˩",
+                "ɕi",
+                "ɑʊ˥˩"
+            ],
+            "onset_zh_ipa": "i˥",
+            "onset_tone_num": 1
+        },
+        "Otte": {
+            "word_en": "Otte",
+            "word_zh": "奥特",
+            "word_en_arpa": [
+                "AA1",
+                "T"
+            ],
+            "syllables_en_arpa": [
+                "AA1 T"
+            ],
+            "syllables_en_ipa": [
+                "ɑt"
+            ],
+            "onset_en_ipa": "ɑt",
+            "stresses_en": [
+                1
+            ],
+            "word_zh_pinyin": [
+                "a4o",
+                "te4"
+            ],
+            "onset_zh_pinyin": "a4o",
+            "syllables_zh_ipa": [
+                "ɑʊ˥˩",
+                "tʰɤ˥˩"
+            ],
+            "onset_zh_ipa": "ɑʊ˥˩",
+            "onset_tone_num": 4
+        },
+        "Ulrich": {
+            "word_en": "Ulrich",
+            "word_zh": "乌尔里希",
+            "word_en_arpa": [
+                "AH1",
+                "L",
+                "R",
+                "IH0",
+                "CH"
+            ],
+            "syllables_en_arpa": [
+                "AH1 L",
+                "R IH0 CH"
+            ],
+            "syllables_en_ipa": [
+                "ʌl",
+                "rɪtʃ"
+            ],
+            "onset_en_ipa": "ʌl",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "wu1",
+                "e3r",
+                "li3",
+                "xi1"
+            ],
+            "onset_zh_pinyin": "wu1",
+            "syllables_zh_ipa": [
+                "u˥",
+                "ɑɻ˧˩˧",
+                "li˧˩˧",
+                "ɕi˥"
+            ],
+            "onset_zh_ipa": "u˥",
+            "onset_tone_num": 1
+        },
+        "Olson": {
+            "word_en": "Olson",
+            "word_zh": "奥尔森",
+            "word_en_arpa": [
+                "OW1",
+                "L",
+                "S",
+                "AH0",
+                "N"
+            ],
+            "syllables_en_arpa": [
+                "OW1 L",
+                "S AH0 N"
+            ],
+            "syllables_en_ipa": [
+                "oʊl",
+                "sən"
+            ],
+            "onset_en_ipa": "oʊl",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a4o",
+                "e3r",
+                "se1n"
+            ],
+            "onset_zh_pinyin": "a4o",
+            "syllables_zh_ipa": [
+                "ɑʊ˥˩",
+                "ɑɻ˧˩˧",
+                "sən˥"
+            ],
+            "onset_zh_ipa": "ɑʊ˥˩",
+            "onset_tone_num": 4
+        },
+        "Edwards": {
+            "word_en": "Edwards",
+            "word_zh": "爱德华兹",
+            "word_en_arpa": [
+                "EH1",
+                "D",
+                "W",
+                "ER0",
+                "D",
+                "Z"
+            ],
+            "syllables_en_arpa": [
+                "EH1",
+                "D W ER0 D Z"
+            ],
+            "syllables_en_ipa": [
+                "e",
+                "dwɜrdz"
+            ],
+            "onset_en_ipa": "e",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a4i",
+                "de2",
+                "hua2",
+                "zi1"
+            ],
+            "onset_zh_pinyin": "a4i",
+            "syllables_zh_ipa": [
+                "aɪ˥˩",
+                "tɤ˧˥",
+                "xwa˧˥",
+                "tsɯ˥"
+            ],
+            "onset_zh_ipa": "aɪ˥˩",
+            "onset_tone_num": 4
+        },
+        "Ericson": {
+            "word_en": "Ericson",
+            "word_zh": "埃里克森",
+            "word_en_arpa": [
+                "EH1",
+                "R",
+                "IH0",
+                "K",
+                "S",
+                "AH0",
+                "N"
+            ],
+            "syllables_en_arpa": [
+                "EH1",
+                "R IH0 K",
+                "S AH0 N"
+            ],
+            "syllables_en_ipa": [
+                "e",
+                "rɪk",
+                "sən"
+            ],
+            "onset_en_ipa": "e",
+            "stresses_en": [
+                1,
+                0,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1i",
+                "li3",
+                "ke4",
+                "se1n"
+            ],
+            "onset_zh_pinyin": "a1i",
+            "syllables_zh_ipa": [
+                "aɪ˥",
+                "li˧˩˧",
+                "kʰɤ˥˩",
+                "sən˥"
+            ],
+            "onset_zh_ipa": "aɪ˥",
+            "onset_tone_num": 1
+        },
+        "Erickson": {
+            "word_en": "Erickson",
+            "word_zh": "埃里克森",
+            "word_en_arpa": [
+                "EH1",
+                "R",
+                "IH0",
+                "K",
+                "S",
+                "AH0",
+                "N"
+            ],
+            "syllables_en_arpa": [
+                "EH1",
+                "R IH0 K",
+                "S AH0 N"
+            ],
+            "syllables_en_ipa": [
+                "e",
+                "rɪk",
+                "sən"
+            ],
+            "onset_en_ipa": "e",
+            "stresses_en": [
+                1,
+                0,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1i",
+                "li3",
+                "ke4",
+                "se1n"
+            ],
+            "onset_zh_pinyin": "a1i",
+            "syllables_zh_ipa": [
+                "aɪ˥",
+                "li˧˩˧",
+                "kʰɤ˥˩",
+                "sən˥"
+            ],
+            "onset_zh_ipa": "aɪ˥",
+            "onset_tone_num": 1
+        },
+        "Ashmore": {
+            "word_en": "Ashmore",
+            "word_zh": "阿什莫尔",
+            "word_en_arpa": [
+                "AE1",
+                "SH",
+                "M",
+                "AO0",
+                "R"
+            ],
+            "syllables_en_arpa": [
+                "AE1",
+                "SH M AO0 R"
+            ],
+            "syllables_en_ipa": [
+                "æ",
+                "ʃmɔr"
+            ],
+            "onset_en_ipa": "æ",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1",
+                "she2n",
+                "mo4",
+                "e3r"
+            ],
+            "onset_zh_pinyin": "a1",
+            "syllables_zh_ipa": [
+                "a˥",
+                "ʂən˧˥",
+                "mwɔ˥˩",
+                "ɑɻ˧˩˧"
+            ],
+            "onset_zh_ipa": "a˥",
+            "onset_tone_num": 1
+        },
+        "Ehrlich": {
+            "word_en": "Ehrlich",
+            "word_zh": "埃利希",
+            "word_en_arpa": [
+                "ER1",
+                "L",
+                "IH0",
+                "K"
+            ],
+            "syllables_en_arpa": [
+                "ER1",
+                "L IH0 K"
+            ],
+            "syllables_en_ipa": [
+                "ɜr",
+                "lɪk"
+            ],
+            "onset_en_ipa": "ɜr",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1i",
+                "li4",
+                "xi1"
+            ],
+            "onset_zh_pinyin": "a1i",
+            "syllables_zh_ipa": [
+                "aɪ˥",
+                "li˥˩",
+                "ɕi˥"
+            ],
+            "onset_zh_ipa": "aɪ˥",
+            "onset_tone_num": 1
+        },
+        "Alger": {
+            "word_en": "Alger",
+            "word_zh": "阿尔杰",
+            "word_en_arpa": [
+                "AE1",
+                "L",
+                "JH",
+                "ER0"
+            ],
+            "syllables_en_arpa": [
+                "AE1 L",
+                "JH ER0"
+            ],
+            "syllables_en_ipa": [
+                "æl",
+                "dʒɜr"
+            ],
+            "onset_en_ipa": "æl",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1",
+                "e3r",
+                "jie2"
+            ],
+            "onset_zh_pinyin": "a1",
+            "syllables_zh_ipa": [
+                "a˥",
+                "ɑɻ˧˩˧",
+                "tɕjɛ˧˥"
+            ],
+            "onset_zh_ipa": "a˥",
+            "onset_tone_num": 1
+        },
+        "Abercrombie": {
+            "word_en": "Abercrombie",
+            "word_zh": "阿伯克龙比",
+            "word_en_arpa": [
+                "AE2",
+                "B",
+                "ER0",
+                "K",
+                "R",
+                "AA1",
+                "M",
+                "B",
+                "IY0"
+            ],
+            "syllables_en_arpa": [
+                "AE2",
+                "B ER0",
+                "K R AA1 M",
+                "B IY0"
+            ],
+            "syllables_en_ipa": [
+                "æ",
+                "bɜr",
+                "krɑm",
+                "bi"
+            ],
+            "onset_en_ipa": "æ",
+            "stresses_en": [
+                2,
+                0,
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1",
+                "bo2",
+                "ke4",
+                "lo2ng",
+                "bi3"
+            ],
+            "onset_zh_pinyin": "a1",
+            "syllables_zh_ipa": [
+                "a˥",
+                "pwɔ˧˥",
+                "kʰɤ˥˩",
+                "lʊŋ˧˥",
+                "pi˧˩˧"
+            ],
+            "onset_zh_ipa": "a˥",
+            "onset_tone_num": 1
+        },
+        "Ison": {
+            "word_en": "Ison",
+            "word_zh": "伊森",
+            "word_en_arpa": [
+                "IH1",
+                "S",
+                "AH0",
+                "N"
+            ],
+            "syllables_en_arpa": [
+                "IH1",
+                "S AH0 N"
+            ],
+            "syllables_en_ipa": [
+                "ɪ",
+                "sən"
+            ],
+            "onset_en_ipa": "ɪ",
+            "stresses_en": [
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "yi1",
+                "se1n"
+            ],
+            "onset_zh_pinyin": "yi1",
+            "syllables_zh_ipa": [
+                "i˥",
+                "sən˥"
+            ],
+            "onset_zh_ipa": "i˥",
+            "onset_tone_num": 1
+        },
+        "Arriola": {
+            "word_en": "Arriola",
+            "word_zh": "阿里奥拉",
+            "word_en_arpa": [
+                "AA2",
+                "R",
+                "IY0",
+                "OW1",
+                "L",
+                "AH0"
+            ],
+            "syllables_en_arpa": [
+                "AA2",
+                "R IY0",
+                "OW1",
+                "L AH0"
+            ],
+            "syllables_en_ipa": [
+                "ɑ",
+                "ri",
+                "oʊ",
+                "lə"
+            ],
+            "onset_en_ipa": "ɑ",
+            "stresses_en": [
+                2,
+                0,
+                1,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1",
+                "li3",
+                "a4o",
+                "la1"
+            ],
+            "onset_zh_pinyin": "a1",
+            "syllables_zh_ipa": [
+                "a˥",
+                "li˧˩˧",
+                "ɑʊ˥˩",
+                "la˥"
+            ],
+            "onset_zh_ipa": "a˥",
+            "onset_tone_num": 1
+        },
+        "Andromeda": {
+            "word_en": "Andromeda",
+            "word_zh": "安德洛墨达",
+            "word_en_arpa": [
+                "AE0",
+                "N",
+                "D",
+                "R",
+                "AA1",
+                "M",
+                "AH0",
+                "D",
+                "AH0"
+            ],
+            "syllables_en_arpa": [
+                "AE0 N",
+                "D R AA1",
+                "M AH0",
+                "D AH0"
+            ],
+            "syllables_en_ipa": [
+                "æn",
+                "drɑ",
+                "mə",
+                "də"
+            ],
+            "onset_en_ipa": "æn",
+            "stresses_en": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "word_zh_pinyin": [
+                "a1n",
+                "de2",
+                "luo4",
+                "mo4",
+                "da2"
+            ],
+            "onset_zh_pinyin": "a1n",
+            "syllables_zh_ipa": [
+                "an˥",
+                "tɤ˧˥",
+                "lwɔ˥˩",
+                "mwɔ˥˩",
+                "ta˧˥"
+            ],
+            "onset_zh_ipa": "an˥",
+            "onset_tone_num": 1
         }
     }
 }
