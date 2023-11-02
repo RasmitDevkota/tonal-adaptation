@@ -1,0 +1,121 @@
+DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=5,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       random_state=100, splitter='best')
+1  |--- P(Onset|T=1) <= 0.00
+2  |   |--- P(Onset|T=2) <= 0.08
+3  |   |   |--- front <= 0.50
+   |   |   |   |--- class: Tone 4
+4  |   |   |--- front >  0.50
+   |   |   |   |--- class: Tone 4
+5  |   |--- P(Onset|T=2) >  0.08
+   |   |   |--- class: Tone 2
+6  |--- P(Onset|T=1) >  0.00
+7  |   |--- P(Onset|T=4) <= 0.02
+8  |   |   |--- P(Onset|T=3) <= 0.03
+9  |   |   |   |--- P(Onset|T=4) <= 0.01
+10 |   |   |   |   |--- Onset N(C) <= 0.50
+   |   |   |   |   |   |--- class: Tone 1
+11 |   |   |   |   |--- Onset N(C) >  0.50
+   |   |   |   |   |   |--- class: Tone 1
+12 |   |   |   |--- P(Onset|T=4) >  0.01
+   |   |   |   |   |--- class: Tone 1
+13 |   |   |--- P(Onset|T=3) >  0.03
+14 |   |   |   |--- P(Onset|T=4) <= 0.01
+   |   |   |   |   |--- class: Tone 1
+15 |   |   |   |--- P(Onset|T=4) >  0.01
+   |   |   |   |   |--- class: Tone 1
+16 |   |--- P(Onset|T=4) >  0.02
+17 |   |   |--- P(Onset|T=1) <= 0.02
+18 |   |   |   |--- Onset N(V) <= 1.50
+   |   |   |   |   |--- class: Tone 4
+19 |   |   |   |--- Onset N(V) >  1.50
+   |   |   |   |   |--- class: Tone 4
+20 |   |   |--- P(Onset|T=1) >  0.02
+21 |   |   |   |--- initial_stress_en <= 0.50
+22 |   |   |   |   |--- P(Onset|T=3) <= 0.03
+   |   |   |   |   |   |--- class: Tone 1
+23 |   |   |   |   |--- P(Onset|T=3) >  0.03
+   |   |   |   |   |   |--- class: Tone 1
+24 |   |   |   |--- initial_stress_en >  0.50
+25 |   |   |   |   |--- P(Onset|T=2) <= 0.08
+26 |   |   |   |   |   |--- initial_stress_en <= 1.50
+27 |   |   |   |   |   |   |--- close-mid <= 0.50
+28 |   |   |   |   |   |   |   |--- N(Syllables) <= 2.50
+29 |   |   |   |   |   |   |   |   |--- open <= 0.50
+   |   |   |   |   |   |   |   |   |   |--- class: Tone 4
+30 |   |   |   |   |   |   |   |   |--- open >  0.50
+   |   |   |   |   |   |   |   |   |   |--- class: Tone 1
+31 |   |   |   |   |   |   |   |--- N(Syllables) >  2.50
+   |   |   |   |   |   |   |   |   |--- class: Tone 1
+32 |   |   |   |   |   |   |--- close-mid >  0.50
+   |   |   |   |   |   |   |   |--- class: Tone 4
+33 |   |   |   |   |   |--- initial_stress_en >  1.50
+   |   |   |   |   |   |   |--- class: Tone 4
+34 |   |   |   |   |--- P(Onset|T=2) >  0.08
+35 |   |   |   |   |   |--- N(Syllables) <= 2.50
+   |   |   |   |   |   |   |--- class: Tone 4
+36 |   |   |   |   |   |--- N(Syllables) >  2.50
+   |   |   |   |   |   |   |--- class: Tone 1
+{'Tone 1': 0, 'Tone 2': 0, 'Tone 3': 0, 'Tone 4': 0} {'Tone 1': 0, 'Tone 2': 0, 'Tone 3': 0, 'Tone 4': 0}
+伊丽莎白: yīlìshābái w/ sandhi, yīlìsuōbái w/o sandhi gives: Tone 4 vs. Tone 4
+阿比盖尔: ābǐgài'ěr w/ sandhi, ābǐgàiěr w/o sandhi gives: Tone 1 vs. Tone 1
+19 incorrectly predicted tone Tone 3 (guessed tone Tone 4 w/ decision path [ 0  6 16 17 19])
+埃琳娜: āilínnà w/ sandhi, āilínnuó w/o sandhi gives: Tone 1 vs. Tone 1
+阿德里安: ādélǐ'ān w/ sandhi, ādélǐān w/o sandhi gives: Tone 4 vs. Tone 4
+32 incorrectly predicted tone Tone 3 (guessed tone Tone 4 w/ decision path [ 0  6 16 20 24 25 26 32])
+阿克塞尔: ākèsāi'ěr w/ sandhi, ākèsāiěr w/o sandhi gives: Tone 1 vs. Tone 4
+伊恩: yī'ēn w/ sandhi, yīēn w/o sandhi gives: Tone 4 vs. Tone 4
+安娜: ānnà w/ sandhi, ānnuó w/o sandhi gives: Tone 4 vs. Tone 4
+阿丽亚娜: ālìyànà w/ sandhi, ālìyànuó w/o sandhi gives: Tone 4 vs. Tone 1
+雅典娜: yǎdiǎnnà w/ sandhi, yādiǎnnuó w/o sandhi gives: Tone 4 vs. Tone 4
+15 incorrectly predicted tone Tone 3 (guessed tone Tone 1 w/ decision path [ 0  6  7 13 15])
+伊莎贝尔: yīsuōbèi'ěr w/ sandhi, yīsuōbèiěr w/o sandhi gives: Tone 1 vs. Tone 1
+伊甸园: yīdiànyuán w/ sandhi, yīdiānyuán w/o sandhi gives: Tone 3 vs. Tone 1
+14 incorrectly predicted tone Tone 3 (guessed tone Tone 1 w/ decision path [ 0  6  7 13 14])
+阿切尔: āqiè'ěr w/ sandhi, āqièěr w/o sandhi gives: Tone 4 vs. Tone 1
+阿里安娜: ālǐ'ānnuó w/ sandhi, ālǐānnuó w/o sandhi gives: Tone 4 vs. Tone 4
+伊莎贝尔: yīsuōbèi'ěr w/ sandhi, yīsuōbèiěr w/o sandhi gives: Tone 4 vs. Tone 4
+阿德里尔: ādélǐ'ěr w/ sandhi, ādélǐěr w/o sandhi gives: Tone 1 vs. Tone 1
+3 incorrectly predicted tone Tone 3 (guessed tone Tone 4 w/ decision path [0 1 2 3])
+艾略特: ài'ètè w/ sandhi, àiètè w/o sandhi gives: Tone 1 vs. Tone 1
+埃利奥特: āilì'àotè w/ sandhi, āilìàotè w/o sandhi gives: Tone 4 vs. Tone 4
+阿里埃拉: ālǐ'āilā w/ sandhi, ālǐāilā w/o sandhi gives: Tone 1 vs. Tone 4
+安东尼奥: āndōngní'ào w/ sandhi, āndōngníào w/o sandhi gives: Tone 4 vs. Tone 4
+伊曼纽尔: yīmànniǔ'ěr w/ sandhi, yīmànniǔěr w/o sandhi gives: Tone 4 vs. Tone 1
+阿贝尔: ābèi'ěr w/ sandhi, ābèiěr w/o sandhi gives: Tone 1 vs. Tone 1
+埃尔西: āi'ěrxi w/ sandhi, āiěrxi w/o sandhi gives: Tone 1 vs. Tone 1
+艾丽尔: àilì'ěr w/ sandhi, àilìěr w/o sandhi gives: Tone 1 vs. Tone 1
+Tone 1 accuracy: 46/60 (76.66666666666667%)
+Tone 2 accuracy: 2/2 (100.0%)
+Tone 3 accuracy: 0/5 (0.0%)
+Tone 4 accuracy: 24/43 (55.81395348837209%)
+[[46  0  0 14]
+ [ 0  2  0  0]
+ [ 2  0  0  3]
+ [18  1  0 24]]
+65.45454545454545
+0.34604022126531436
+[0.01166966 0.         0.         0.         0.00779678 0.
+ 0.         0.         0.00256063 0.00523944 0.         0.
+ 0.00428059 0.03671481 0.         0.         0.3814242  0.09357016
+ 0.04017985 0.36109871 0.         0.         0.         0.
+ 0.05546517]
+              precision    recall  f1-score   support
+
+      Tone 1       0.70      0.77      0.73        60
+      Tone 2       0.67      1.00      0.80         2
+      Tone 3       0.00      0.00      0.00         5
+      Tone 4       0.59      0.56      0.57        43
+
+    accuracy                           0.65       110
+   macro avg       0.49      0.58      0.53       110
+weighted avg       0.62      0.65      0.64       110
+
+c:\Python310\lib\site-packages\sklearn\metrics\_classification.py:1469: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Python310\lib\site-packages\sklearn\metrics\_classification.py:1469: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\Python310\lib\site-packages\sklearn\metrics\_classification.py:1469: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))

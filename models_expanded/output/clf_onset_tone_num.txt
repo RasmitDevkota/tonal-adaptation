@@ -1,0 +1,136 @@
+([1, False, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0.10854092526690391, 0, 0, 0.09646302250803858, 0, 0, 0, 0, 0.14935064935064934, 0.05172413793103448, 0.2230769230769231, 0, 0, 0.043478260869565216, 0, 0.14285714285714285, 0.01818181818181818, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25274725274725274, 0.06593406593406594, 0.6373626373626373, 0, 0, 0.01098901098901099, 0, 0.02197802197802198, 0.01098901098901099, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, True], '4', '1')
+([1, False, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 116, 0.10854092526690391, 0, 0, 0.09646302250803858, 0, 0, 0, 0, 0.14935064935064934, 0.05172413793103448, 0.2230769230769231, 0, 0, 0.043478260869565216, 0, 0.14285714285714285, 0.01818181818181818, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25274725274725274, 0.06593406593406594, 0.6373626373626373, 0, 0, 0.01098901098901099, 0, 0.02197802197802198, 0.01098901098901099, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, True], '3', '4')
+8 incorrectly predicted tone 3 (guessed tone 4 w/ decision path [0 4 6 8])
+([1, False, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 116, 0.10854092526690391, 0, 0, 0.09646302250803858, 0, 0, 0, 0, 0.14935064935064934, 0.05172413793103448, 0.2230769230769231, 0, 0, 0.043478260869565216, 0, 0.14285714285714285, 0.01818181818181818, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25274725274725274, 0.06593406593406594, 0.6373626373626373, 0, 0, 0.01098901098901099, 0, 0.02197802197802198, 0.01098901098901099, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, True], '3', '4')
+8 incorrectly predicted tone 3 (guessed tone 4 w/ decision path [0 4 6 8])
+([1, False, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0.10854092526690391, 0, 0, 0.09646302250803858, 0, 0, 0, 0, 0.14935064935064934, 0.05172413793103448, 0.2230769230769231, 0, 0, 0.043478260869565216, 0, 0.14285714285714285, 0.01818181818181818, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25274725274725274, 0.06593406593406594, 0.6373626373626373, 0, 0, 0.01098901098901099, 0, 0.02197802197802198, 0.01098901098901099, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, False], '4', '1')
+([2, False, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, -1, 1, 0, 3, 0.10854092526690391, 0, 0, 0.09646302250803858, 0, 0, 0, 0, 0.14935064935064934, 0.05172413793103448, 0.2230769230769231, 0, 0, 0.043478260869565216, 0, 0.14285714285714285, 0.01818181818181818, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25274725274725274, 0.06593406593406594, 0.6373626373626373, 0, 0, 0.01098901098901099, 0, 0.02197802197802198, 0.01098901098901099, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, True], '3', '1')
+2 incorrectly predicted tone 3 (guessed tone 1 w/ decision path [0 1 2])
+([1, False, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 14, 0.10854092526690391, 0, 0, 0.09646302250803858, 0, 0, 0, 0, 0.14935064935064934, 0.05172413793103448, 0.2230769230769231, 0, 0, 0.043478260869565216, 0, 0.14285714285714285, 0.01818181818181818, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25274725274725274, 0.06593406593406594, 0.6373626373626373, 0, 0, 0.01098901098901099, 0, 0.02197802197802198, 0.01098901098901099, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, True], '4', '1')
+([2, False, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, -1, 2, 1, 29, 0.10854092526690391, 0, 0, 0.09646302250803858, 0, 0, 0, 0, 0.14935064935064934, 0.05172413793103448, 0.2230769230769231, 0, 0, 0.043478260869565216, 0, 0.14285714285714285, 0.01818181818181818, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25274725274725274, 0.06593406593406594, 0.6373626373626373, 0, 0, 0.01098901098901099, 0, 0.02197802197802198, 0.01098901098901099, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, True], '3', '4')
+5 incorrectly predicted tone 3 (guessed tone 4 w/ decision path [0 4 5])
+([1, False, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 3, 0.10854092526690391, 0, 0, 0.09646302250803858, 0, 0, 0, 0, 0.14935064935064934, 0.05172413793103448, 0.2230769230769231, 0, 0, 0.043478260869565216, 0, 0.14285714285714285, 0.01818181818181818, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.25274725274725274, 0.06593406593406594, 0.6373626373626373, 0, 0, 0.01098901098901099, 0, 0.02197802197802198, 0.01098901098901099, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, True], '2', '1')
+2 incorrectly predicted tone 2 (guessed tone 1 w/ decision path [0 1 2])
+{'1': 4, '2': 1, '3': 4, '4': 6} {'1': 4, '2': 0, '3': 0, '4': 3}
+1 accuracy: 4/4 (100.0%)
+2 accuracy: 0/1 (0.0%)
+3 accuracy: 0/4 (0.0%)
+4 accuracy: 3/6 (50.0%)
+[[4 0 0 0]
+ [1 0 0 0]
+ [1 0 0 3]
+ [3 0 0 3]]
+0.25423758993656337
+Feature Onset N(V) w/ importance 0.0
+Feature Onset Length w/ importance 0.0
+Feature close w/ importance 0.0
+Feature near-close w/ importance 0.0
+Feature close-mid w/ importance 0.08181818181818189
+Feature mid w/ importance 0.0
+Feature open-mid w/ importance 0.0
+Feature near-open w/ importance 0.0
+Feature open w/ importance 0.0
+Feature front w/ importance 0.0
+Feature central w/ importance 0.0
+Feature back w/ importance 0.0
+Feature Onset N(C) w/ importance 0.0
+Feature initial_stress_en w/ importance 0.0
+Feature first_stress_en w/ importance 0.0
+Feature F(Onset) w/ importance 0.9181818181818181
+Feature P(Onset|T=1) w/ importance 0.0
+Feature P(Onset|T=2) w/ importance 0.0
+Feature P(Onset|T=3) w/ importance 0.0
+Feature P(Onset|T=4) w/ importance 0.0
+Feature P(T=1|Onset) w/ importance 0.0
+Feature P(T=2|Onset) w/ importance 0.0
+Feature P(T=3|Onset) w/ importance 0.0
+Feature P(T=4|Onset) w/ importance 0.0
+Feature P(Onset|Hanzi=奥) w/ importance 0.0
+Feature P(Onset|Hanzi=艾) w/ importance 0.0
+Feature P(Onset|Hanzi=阿) w/ importance 0.0
+Feature P(Onset|Hanzi=以) w/ importance 0.0
+Feature P(Onset|Hanzi=伊) w/ importance 0.0
+Feature P(Onset|Hanzi=亚) w/ importance 0.0
+Feature P(Onset|Hanzi=埃) w/ importance 0.0
+Feature P(Onset|Hanzi=欧) w/ importance 0.0
+Feature P(Onset|Hanzi=安) w/ importance 0.0
+Feature P(Onset|Hanzi=爱) w/ importance 0.0
+Feature P(Onset|Hanzi=秋) w/ importance 0.0
+Feature P(Onset|Hanzi=天) w/ importance 0.0
+Feature P(Onset|Hanzi=雅) w/ importance 0.0
+Feature P(Onset|Hanzi=猎) w/ importance 0.0
+Feature P(Onset|Hanzi=杜) w/ importance 0.0
+Feature P(Onset|Hanzi=夏) w/ importance 0.0
+Feature P(Onset|Hanzi=象) w/ importance 0.0
+Feature P(Onset|Hanzi=恩) w/ importance 0.0
+Feature P(Onset|Hanzi=尤) w/ importance 0.0
+Feature P(Onset|Hanzi=厄) w/ importance 0.0
+Feature P(Onset|Hanzi=乌) w/ importance 0.0
+Feature P(Onset|Hanzi=英) w/ importance 0.0
+Feature P(Onset|Hanzi=大) w/ importance 0.0
+Feature P(Onset|Hanzi=城) w/ importance 0.0
+Feature P(Onset|Hanzi=昂) w/ importance 0.0
+Feature P(Onset|Hanzi=东) w/ importance 0.0
+Feature P(Onset|Hanzi=翁) w/ importance 0.0
+Feature P(Onset|Hanzi=边) w/ importance 0.0
+Feature P(Onset|Hanzi=市) w/ importance 0.0
+Feature P(Onset|Hanzi=易) w/ importance 0.0
+Feature P(Onset|Hanzi=因) w/ importance 0.0
+Feature P(Onset|Hanzi=法) w/ importance 0.0
+Feature P(Onset|Hanzi=鹰) w/ importance 0.0
+Feature P(Onset|Hanzi=认) w/ importance 0.0
+Feature P(Onset|Hanzi=铠) w/ importance 0.0
+Feature P(Onset|Hanzi=竞) w/ importance 0.0
+Feature P(Onset|Hanzi=押) w/ importance 0.0
+Feature P(Onset|Hanzi=冰) w/ importance 0.0
+Feature P(Onset|Hanzi=我) w/ importance 0.0
+Feature P(Hanzi=奥|Onset) w/ importance 0.0
+Feature P(Hanzi=艾|Onset) w/ importance 0.0
+Feature P(Hanzi=阿|Onset) w/ importance 0.0
+Feature P(Hanzi=以|Onset) w/ importance 0.0
+Feature P(Hanzi=伊|Onset) w/ importance 0.0
+Feature P(Hanzi=亚|Onset) w/ importance 0.0
+Feature P(Hanzi=埃|Onset) w/ importance 0.0
+Feature P(Hanzi=欧|Onset) w/ importance 0.0
+Feature P(Hanzi=安|Onset) w/ importance 0.0
+Feature P(Hanzi=爱|Onset) w/ importance 0.0
+Feature P(Hanzi=秋|Onset) w/ importance 0.0
+Feature P(Hanzi=天|Onset) w/ importance 0.0
+Feature P(Hanzi=雅|Onset) w/ importance 0.0
+Feature P(Hanzi=猎|Onset) w/ importance 0.0
+Feature P(Hanzi=杜|Onset) w/ importance 0.0
+Feature P(Hanzi=夏|Onset) w/ importance 0.0
+Feature P(Hanzi=象|Onset) w/ importance 0.0
+Feature P(Hanzi=恩|Onset) w/ importance 0.0
+Feature P(Hanzi=尤|Onset) w/ importance 0.0
+Feature P(Hanzi=厄|Onset) w/ importance 0.0
+Feature P(Hanzi=乌|Onset) w/ importance 0.0
+Feature P(Hanzi=英|Onset) w/ importance 0.0
+Feature P(Hanzi=大|Onset) w/ importance 0.0
+Feature P(Hanzi=城|Onset) w/ importance 0.0
+Feature P(Hanzi=昂|Onset) w/ importance 0.0
+Feature P(Hanzi=东|Onset) w/ importance 0.0
+Feature P(Hanzi=翁|Onset) w/ importance 0.0
+Feature P(Hanzi=边|Onset) w/ importance 0.0
+Feature P(Hanzi=市|Onset) w/ importance 0.0
+Feature P(Hanzi=易|Onset) w/ importance 0.0
+Feature P(Hanzi=因|Onset) w/ importance 0.0
+Feature P(Hanzi=法|Onset) w/ importance 0.0
+Feature P(Hanzi=鹰|Onset) w/ importance 0.0
+Feature P(Hanzi=认|Onset) w/ importance 0.0
+Feature P(Hanzi=铠|Onset) w/ importance 0.0
+Feature P(Hanzi=竞|Onset) w/ importance 0.0
+Feature P(Hanzi=押|Onset) w/ importance 0.0
+Feature P(Hanzi=冰|Onset) w/ importance 0.0
+Feature P(Hanzi=我|Onset) w/ importance 0.0
+Feature Bisyllabic w/ importance 0.0
+              precision    recall  f1-score   support
+
+           1       0.44      1.00      0.62         4
+           2       0.00      0.00      0.00         1
+           3       0.00      0.00      0.00         4
+           4       0.50      0.50      0.50         6
+
+    accuracy                           0.47        15
+   macro avg       0.24      0.38      0.28        15
+weighted avg       0.32      0.47      0.36        15

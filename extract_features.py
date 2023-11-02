@@ -1,10 +1,19 @@
+import os
+import re
 import json
 import atexit
+import requests
 import unicodedata
 import pronouncing
 from dragonmapper import hanzi
 from arpa2ipa import arpa_to_ipa
+import arpabetandipaconvertor.phoneticarphabet2arpabet as ipa_to_arpa
 from syllabifier import syllabifyARPA
+
+APP_ID = os.getenv("APP_ID")
+APP_KEY = os.getenv("APP_KEY")
+
+convertor = ipa_to_arpa.PhoneticAlphabet2ARPAbetConvertor()
 
 tones = {
     "": 1,
@@ -25,6 +34,17 @@ with open("./data/translations.json", "r") as translations_good_json_file:
     translations_good_json = json.load(translations_good_json_file)
     words_good_json = translations_good_json["words"]
 
+with open("./data_sources/oxford_dictionaries_api.json", "r") as oxford_dict_json_file:
+    oxford_dict_raw = oxford_dict_json_file.read()
+
+    if len(oxford_dict_raw) == 0:
+        language = "en-us"
+        request_url = f"https://od-api.oxforddictionaries.com/api/v2/entries/{language}/{word_en.lower()}"
+        response_object = requests.get(request_url, headers={"app_id": APP_ID, "app_key": APP_KEY})
+        oxford_dict_json = json.loads(response_object.content)
+    else:
+        oxford_dict_json = json.loads(oxford_dict_raw)
+
 with open("./data/output_data.json", "r") as output_data_file:
     output_data_raw = output_data_file.read()
 
@@ -36,7 +56,6 @@ with open("./data/output_data.json", "r") as output_data_file:
         }
     else:
         output_data_json = json.loads(output_data_raw)
-
 
 with open("./data/failed_corpus.json", "r") as failed_words_json_file:
     failed_words_raw = failed_words_json_file.read()
@@ -50,15 +69,14 @@ with open("./data/failed_corpus.json", "r") as failed_words_json_file:
     else:
         failed_words_json = json.loads(failed_words_raw)
 
+# def save_progress():
+#     with open("./data/output_data.json", "w+") as output_data_json_file:
+#         json.dump(output_data_json, output_data_json_file, ensure_ascii=False)
 
-def save_progress():
-    with open("./data/output_data.json", "w+") as output_data_json_file:
-        json.dump(output_data_json, output_data_json_file, ensure_ascii=False)
+#     with open("./data/failed_corpus.json", "w+") as failed_words_json_file:
+#         json.dump(failed_words_json, failed_words_json_file, ensure_ascii=False)
 
-    with open("./data/failed_corpus.json", "w+") as failed_words_json_file:
-        json.dump(failed_words_json, failed_words_json_file, ensure_ascii=False)
-
-atexit.register(save_progress)
+# atexit.register(save_progress)
 
 for word_en, word_data in words_good_json.items():
     translations = word_data["translations"]
@@ -87,11 +105,24 @@ for word_en, word_data in words_good_json.items():
     # english arpa
     word_en_arpa = output_datum["word_en_arpa"]
     if not word_en_arpa:
+        # cmu
         word_en_arpa = pronouncing.phones_for_word(word_en)
 
         if len(word_en_arpa) == 0:
-            failed_words_json["words"][word_en] = "phones_for_word"
-            continue
+            # oxford
+            try:
+                lexical_entry = oxford_dict_json[word_en]["results"][0]["lexicalEntries"][0]
+                if lexical_entry["lexicalCategory"]["id"] == "noun":
+                    phonetic_spelling = lexical_entry["entries"][0]["pronunciations"][0]["phoneticSpelling"]
+                    ipa_spelling = re.sub(r"[\u0300-\u0302]|[\u0304-\u036f]|ˈ|ˌ", "", unicodedata.normalize("NFD", phonetic_spelling))
+                    word_en_arpa = [convertor.convert(ipa_spelling)]
+                    continue
+                else:
+                    failed_words_json["words"][word_en] = "phones_for_word"
+                    continue
+            except Exception as e:
+                failed_words_json["words"][word_en] = "phones_for_word"
+                continue
 
         if len(word_en_arpa) > 1 and (word_en_arpa[0].split(" ")[0] != word_en_arpa[1].split(" ")[0]):
             failed_words_json["words"][word_en] = f"onset_arpa_variation: {word_en_arpa}"
@@ -118,6 +149,7 @@ for word_en, word_data in words_good_json.items():
 
     onset_en_ipa = output_datum["onset_en_ipa"]
     if not onset_en_ipa:
+        # @TODO - Is individual syllable conversion (without full word context) reliable? Desirable?
         onset_en_ipa = arpa_to_ipa(syllables_en_arpa[0]).replace(" ", "")
 
         output_datum["onset_en_ipa"] = onset_en_ipa
@@ -149,11 +181,15 @@ for word_en, word_data in words_good_json.items():
     syllables_zh_ipa = output_datum["syllables_zh_ipa"]
     onset_zh_ipa = output_datum["onset_zh_ipa"]
     if not syllables_zh_ipa or not onset_zh_ipa:
-        syllables_zh_ipa = hanzi.to_ipa(" ".join(list(translation)))
-        onset_zh_ipa = syllables_zh_ipa.split(" ")[0]
+        try:
+            syllables_zh_ipa = hanzi.to_ipa(" ".join(list(translation)))
+            onset_zh_ipa = syllables_zh_ipa.split(" ")[0]
 
-        output_datum["syllables_zh_ipa"] = syllables_zh_ipa.split(" ")
-        output_datum["onset_zh_ipa"] = onset_zh_ipa
+            output_datum["syllables_zh_ipa"] = syllables_zh_ipa.split(" ")
+            output_datum["onset_zh_ipa"] = onset_zh_ipa
+        except:
+            failed_words_json["words"][word_en] = f"invalid_syllable: {translation}"
+            continue
 
     # mandarin tones
     onset_tone_num = output_datum["onset_tone_num"]

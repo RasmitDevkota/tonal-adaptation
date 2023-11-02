@@ -21,16 +21,17 @@ def vowel_qualities(onset):
     return [vowels_count, onset_length] + height_binaries + backness_binaries
 
 def map_tone(tone):
-    if tone == 1:
-        return "Tone 1/2"
-    elif tone == 2:
-        return "Tone 1/2"
-    elif tone == 3:
-        return "Tone 3/4"
-    elif tone == 4:
-        return "Tone 3/4"
-    else:
-        return "Tone 0"
+    return f"Tone {tone}"
+    # if tone == 1:
+    #     return "Tone 1/3"
+    # elif tone == 2:
+    #     return "Tone 2/4"
+    # elif tone == 3:
+    #     return "Tone 1/3"
+    # elif tone == 4:
+    #     return "Tone 2/4"
+    # else:
+    #     return "Tone 0"
 
 backness_weights = [
     3,

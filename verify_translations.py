@@ -58,9 +58,10 @@ for word_en, word_data in words_good_json.items():
     for translator, translation in translations.items():
         if translation == "FAILED" or translation == "":
             continue
-        elif translation.lower() == word_en.lower():
-            bad = True
+        elif translation.lower().strip() == word_en.lower():
             bad_translation_data["translations_bad"]["untranslated"][translator] = translation
+            if len(list(bad_translation_data["translations_bad"]["untranslated"].keys())) > 3:
+                bad = True
         elif regex.search("[a-zA-Z ]|[^\u4e00-\u9fff]", translation):
             bad = True
             bad_translation_data["translations_bad"]["illegal_chars"][translator] = translation

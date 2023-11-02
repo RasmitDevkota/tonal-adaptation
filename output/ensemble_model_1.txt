@@ -1,0 +1,464 @@
+DecisionTreeClassifier #0:
+DecisionTreeClassifier #1:
+DecisionTreeClassifier #2:
+DecisionTreeClassifier #3:
+DecisionTreeClassifier #4:
+DecisionTreeClassifier #5:
+{'1': 65, '2': 1, '3': 5, '4': 35} {'1': 55, '2': 1, '3': 0, '4': 20}
+1 accuracy: 55/65 (84.61538461538461%)
+2 accuracy: 1/1 (100.0%)
+3 accuracy: 0/5 (0.0%)
+4 accuracy: 20/35 (57.14285714285714%)
+[[55  0  0 10]
+ [ 0  1  0  0]
+ [ 4  0  0  1]
+ [15  0  0 20]]
+0.4108775265320399
+DecisionTreeClassifier #0:
+Feature Onset N(V) w/ importance 0.0
+Feature Onset Length w/ importance 0.0
+Feature close w/ importance 0.0
+Feature near-close w/ importance 0.0
+Feature close-mid w/ importance 0.0
+Feature mid w/ importance 0.0
+Feature open-mid w/ importance 0.0
+Feature near-open w/ importance 0.0
+Feature open w/ importance 0.0
+Feature front w/ importance 0.0
+Feature central w/ importance 0.0
+Feature back w/ importance 0.0
+Feature Onset N(C) w/ importance 0.0
+Feature initial_stress_en w/ importance 0.0022892290576576406
+Feature first_stress_en w/ importance 0.03716304913761963
+Feature F(Onset) w/ importance 0.028699596654741658
+Feature P(Onset|T=1) w/ importance 0.002345699603671966
+Feature P(Onset|T=2) w/ importance 0.0
+Feature P(Onset|T=3) w/ importance 0.0
+Feature P(Onset|T=4) w/ importance 0.004569227352986019
+Feature P(T=1|Onset) w/ importance 0.0
+Feature P(T=2|Onset) w/ importance 0.0
+Feature P(T=3|Onset) w/ importance 0.0
+Feature P(T=4|Onset) w/ importance 0.0
+Feature P(Onset|Hanzi=奥) w/ importance 0.0
+Feature P(Onset|Hanzi=艾) w/ importance 0.038516515313995
+Feature P(Onset|Hanzi=阿) w/ importance 0.01107106379431012
+Feature P(Onset|Hanzi=以) w/ importance 0.0
+Feature P(Onset|Hanzi=伊) w/ importance 0.0
+Feature P(Onset|Hanzi=亚) w/ importance 0.0
+Feature P(Onset|Hanzi=埃) w/ importance 0.0
+Feature P(Onset|Hanzi=欧) w/ importance 0.0
+Feature P(Onset|Hanzi=安) w/ importance 0.0
+Feature P(Onset|Hanzi=爱) w/ importance 0.0
+Feature P(Onset|Hanzi=秋) w/ importance 0.0
+Feature P(Onset|Hanzi=天) w/ importance 0.0
+Feature P(Onset|Hanzi=雅) w/ importance 0.0
+Feature P(Onset|Hanzi=猎) w/ importance 0.0
+Feature P(Onset|Hanzi=杜) w/ importance 0.0
+Feature P(Onset|Hanzi=夏) w/ importance 0.0
+Feature P(Onset|Hanzi=象) w/ importance 0.0
+Feature P(Onset|Hanzi=恩) w/ importance 0.0
+Feature P(Onset|Hanzi=尤) w/ importance 0.0
+Feature P(Onset|Hanzi=珠) w/ importance 0.0
+Feature P(Onset|Hanzi=靛) w/ importance 0.0
+Feature P(Onset|Hanzi=印) w/ importance 0.0
+Feature P(Onset|Hanzi=厄) w/ importance 0.0
+Feature P(Onset|Hanzi=乌) w/ importance 0.0
+Feature P(Hanzi=奥|Onset) w/ importance 0.19445907036854568
+Feature P(Hanzi=艾|Onset) w/ importance 0.09875140175064868
+Feature P(Hanzi=阿|Onset) w/ importance 0.19643297343571556
+Feature P(Hanzi=以|Onset) w/ importance 0.0
+Feature P(Hanzi=伊|Onset) w/ importance 0.15307889596118054
+Feature P(Hanzi=亚|Onset) w/ importance 0.007151512071826567
+Feature P(Hanzi=埃|Onset) w/ importance 0.03757897868913153
+Feature P(Hanzi=欧|Onset) w/ importance 0.0
+Feature P(Hanzi=安|Onset) w/ importance 0.18789278680796945
+Feature P(Hanzi=爱|Onset) w/ importance 0.0
+Feature P(Hanzi=秋|Onset) w/ importance 0.0
+Feature P(Hanzi=天|Onset) w/ importance 0.0
+Feature P(Hanzi=雅|Onset) w/ importance 0.0
+Feature P(Hanzi=猎|Onset) w/ importance 0.0
+Feature P(Hanzi=杜|Onset) w/ importance 0.0
+Feature P(Hanzi=夏|Onset) w/ importance 0.0
+Feature P(Hanzi=象|Onset) w/ importance 0.0
+Feature P(Hanzi=恩|Onset) w/ importance 0.0
+Feature P(Hanzi=尤|Onset) w/ importance 0.0
+Feature P(Hanzi=珠|Onset) w/ importance 0.0
+Feature P(Hanzi=靛|Onset) w/ importance 0.0
+Feature P(Hanzi=印|Onset) w/ importance 0.0
+Feature P(Hanzi=厄|Onset) w/ importance 0.0
+Feature P(Hanzi=乌|Onset) w/ importance 0.0
+DecisionTreeClassifier #1:
+Feature Onset N(V) w/ importance 0.0
+Feature Onset Length w/ importance 0.0
+Feature close w/ importance 0.0
+Feature near-close w/ importance 0.0
+Feature close-mid w/ importance 0.0
+Feature mid w/ importance 0.0
+Feature open-mid w/ importance 0.0
+Feature near-open w/ importance 0.0
+Feature open w/ importance 0.0
+Feature front w/ importance 0.0
+Feature central w/ importance 0.03598114724328148
+Feature back w/ importance 0.0
+Feature Onset N(C) w/ importance 0.0
+Feature initial_stress_en w/ importance 0.0
+Feature first_stress_en w/ importance 0.04349543850301814
+Feature F(Onset) w/ importance 0.0
+Feature P(Onset|T=1) w/ importance 0.0
+Feature P(Onset|T=2) w/ importance 0.0
+Feature P(Onset|T=3) w/ importance 0.0
+Feature P(Onset|T=4) w/ importance 0.0
+Feature P(T=1|Onset) w/ importance 0.0
+Feature P(T=2|Onset) w/ importance 0.0
+Feature P(T=3|Onset) w/ importance 0.0
+Feature P(T=4|Onset) w/ importance 0.0
+Feature P(Onset|Hanzi=奥) w/ importance 0.0
+Feature P(Onset|Hanzi=艾) w/ importance 0.0
+Feature P(Onset|Hanzi=阿) w/ importance 0.11711860307266542
+Feature P(Onset|Hanzi=以) w/ importance 0.0
+Feature P(Onset|Hanzi=伊) w/ importance 0.0
+Feature P(Onset|Hanzi=亚) w/ importance 0.06743091853450235
+Feature P(Onset|Hanzi=埃) w/ importance 0.0
+Feature P(Onset|Hanzi=欧) w/ importance 0.0
+Feature P(Onset|Hanzi=安) w/ importance 0.0
+Feature P(Onset|Hanzi=爱) w/ importance 0.0
+Feature P(Onset|Hanzi=秋) w/ importance 0.0
+Feature P(Onset|Hanzi=天) w/ importance 0.0
+Feature P(Onset|Hanzi=雅) w/ importance 0.0
+Feature P(Onset|Hanzi=猎) w/ importance 0.0
+Feature P(Onset|Hanzi=杜) w/ importance 0.0
+Feature P(Onset|Hanzi=夏) w/ importance 0.0
+Feature P(Onset|Hanzi=象) w/ importance 0.0
+Feature P(Onset|Hanzi=恩) w/ importance 0.0
+Feature P(Onset|Hanzi=尤) w/ importance 0.0
+Feature P(Onset|Hanzi=珠) w/ importance 0.0
+Feature P(Onset|Hanzi=靛) w/ importance 0.0
+Feature P(Onset|Hanzi=印) w/ importance 0.0
+Feature P(Onset|Hanzi=厄) w/ importance 0.0
+Feature P(Onset|Hanzi=乌) w/ importance 0.0
+Feature P(Hanzi=奥|Onset) w/ importance 0.2979198226607925
+Feature P(Hanzi=艾|Onset) w/ importance 0.10085982230214736
+Feature P(Hanzi=阿|Onset) w/ importance 0.2298232897319582
+Feature P(Hanzi=以|Onset) w/ importance 0.0
+Feature P(Hanzi=伊|Onset) w/ importance 0.0
+Feature P(Hanzi=亚|Onset) w/ importance 0.0024210916882125267
+Feature P(Hanzi=埃|Onset) w/ importance 0.07361360317647228
+Feature P(Hanzi=欧|Onset) w/ importance 0.0
+Feature P(Hanzi=安|Onset) w/ importance 0.0
+Feature P(Hanzi=爱|Onset) w/ importance 0.025050228667372377
+Feature P(Hanzi=秋|Onset) w/ importance 0.0
+Feature P(Hanzi=天|Onset) w/ importance 0.0
+Feature P(Hanzi=雅|Onset) w/ importance 0.0
+Feature P(Hanzi=猎|Onset) w/ importance 0.0
+Feature P(Hanzi=杜|Onset) w/ importance 0.0
+Feature P(Hanzi=夏|Onset) w/ importance 0.0
+Feature P(Hanzi=象|Onset) w/ importance 0.0062860344195772525
+Feature P(Hanzi=恩|Onset) w/ importance 0.0
+Feature P(Hanzi=尤|Onset) w/ importance 0.0
+Feature P(Hanzi=珠|Onset) w/ importance 0.0
+Feature P(Hanzi=靛|Onset) w/ importance 0.0
+Feature P(Hanzi=印|Onset) w/ importance 0.0
+Feature P(Hanzi=厄|Onset) w/ importance 0.0
+Feature P(Hanzi=乌|Onset) w/ importance 0.0
+DecisionTreeClassifier #2:
+Feature Onset N(V) w/ importance 0.0
+Feature Onset Length w/ importance 0.0
+Feature close w/ importance 0.0
+Feature near-close w/ importance 0.0
+Feature close-mid w/ importance 0.0
+Feature mid w/ importance 0.0
+Feature open-mid w/ importance 0.03955058223844748
+Feature near-open w/ importance 0.0
+Feature open w/ importance 0.0
+Feature front w/ importance 0.0
+Feature central w/ importance 0.0
+Feature back w/ importance 0.0
+Feature Onset N(C) w/ importance 0.0
+Feature initial_stress_en w/ importance 0.0
+Feature first_stress_en w/ importance 0.07081962855630666
+Feature F(Onset) w/ importance 0.0
+Feature P(Onset|T=1) w/ importance 0.02197254568802639
+Feature P(Onset|T=2) w/ importance 0.0
+Feature P(Onset|T=3) w/ importance 0.0
+Feature P(Onset|T=4) w/ importance 0.0
+Feature P(T=1|Onset) w/ importance 0.0
+Feature P(T=2|Onset) w/ importance 0.0
+Feature P(T=3|Onset) w/ importance 0.0
+Feature P(T=4|Onset) w/ importance 0.0
+Feature P(Onset|Hanzi=奥) w/ importance 8.450979110778375e-05
+Feature P(Onset|Hanzi=艾) w/ importance 0.0
+Feature P(Onset|Hanzi=阿) w/ importance 0.0
+Feature P(Onset|Hanzi=以) w/ importance 0.0
+Feature P(Onset|Hanzi=伊) w/ importance 0.0
+Feature P(Onset|Hanzi=亚) w/ importance 0.0
+Feature P(Onset|Hanzi=埃) w/ importance 0.0
+Feature P(Onset|Hanzi=欧) w/ importance 0.0
+Feature P(Onset|Hanzi=安) w/ importance 0.0
+Feature P(Onset|Hanzi=爱) w/ importance 0.0
+Feature P(Onset|Hanzi=秋) w/ importance 0.0
+Feature P(Onset|Hanzi=天) w/ importance 0.0
+Feature P(Onset|Hanzi=雅) w/ importance 0.0
+Feature P(Onset|Hanzi=猎) w/ importance 0.013183527412815827
+Feature P(Onset|Hanzi=杜) w/ importance 0.0
+Feature P(Onset|Hanzi=夏) w/ importance 0.0
+Feature P(Onset|Hanzi=象) w/ importance 0.0
+Feature P(Onset|Hanzi=恩) w/ importance 0.0
+Feature P(Onset|Hanzi=尤) w/ importance 0.0
+Feature P(Onset|Hanzi=珠) w/ importance 0.0
+Feature P(Onset|Hanzi=靛) w/ importance 0.0
+Feature P(Onset|Hanzi=印) w/ importance 0.0
+Feature P(Onset|Hanzi=厄) w/ importance 0.0
+Feature P(Onset|Hanzi=乌) w/ importance 0.0
+Feature P(Hanzi=奥|Onset) w/ importance 0.31121585991168066
+Feature P(Hanzi=艾|Onset) w/ importance 0.0
+Feature P(Hanzi=阿|Onset) w/ importance 0.4157450093215189
+Feature P(Hanzi=以|Onset) w/ importance 0.0
+Feature P(Hanzi=伊|Onset) w/ importance 0.0
+Feature P(Hanzi=亚|Onset) w/ importance 0.0
+Feature P(Hanzi=埃|Onset) w/ importance 0.10610204273583528
+Feature P(Hanzi=欧|Onset) w/ importance 0.0
+Feature P(Hanzi=安|Onset) w/ importance 0.0
+Feature P(Hanzi=爱|Onset) w/ importance 0.02132629434426091
+Feature P(Hanzi=秋|Onset) w/ importance 0.0
+Feature P(Hanzi=天|Onset) w/ importance 0.0
+Feature P(Hanzi=雅|Onset) w/ importance 0.0
+Feature P(Hanzi=猎|Onset) w/ importance 0.0
+Feature P(Hanzi=杜|Onset) w/ importance 0.0
+Feature P(Hanzi=夏|Onset) w/ importance 0.0
+Feature P(Hanzi=象|Onset) w/ importance 0.0
+Feature P(Hanzi=恩|Onset) w/ importance 0.0
+Feature P(Hanzi=尤|Onset) w/ importance 0.0
+Feature P(Hanzi=珠|Onset) w/ importance 0.0
+Feature P(Hanzi=靛|Onset) w/ importance 0.0
+Feature P(Hanzi=印|Onset) w/ importance 0.0
+Feature P(Hanzi=厄|Onset) w/ importance 0.0
+Feature P(Hanzi=乌|Onset) w/ importance 0.0
+DecisionTreeClassifier #3:
+Feature Onset N(V) w/ importance 0.0
+Feature Onset Length w/ importance 0.0
+Feature close w/ importance 0.0
+Feature near-close w/ importance 0.0
+Feature close-mid w/ importance 0.0
+Feature mid w/ importance 0.0
+Feature open-mid w/ importance 0.06574178472906053
+Feature near-open w/ importance 0.0
+Feature open w/ importance 0.0
+Feature front w/ importance 0.0
+Feature central w/ importance 0.0
+Feature back w/ importance 0.0
+Feature Onset N(C) w/ importance 0.0
+Feature initial_stress_en w/ importance 0.0
+Feature first_stress_en w/ importance 0.06820487060035757
+Feature F(Onset) w/ importance 0.012493913839911967
+Feature P(Onset|T=1) w/ importance 0.05815848244600785
+Feature P(Onset|T=2) w/ importance 0.0
+Feature P(Onset|T=3) w/ importance 0.0
+Feature P(Onset|T=4) w/ importance 0.0
+Feature P(T=1|Onset) w/ importance 0.0
+Feature P(T=2|Onset) w/ importance 0.0
+Feature P(T=3|Onset) w/ importance 0.0
+Feature P(T=4|Onset) w/ importance 0.0
+Feature P(Onset|Hanzi=奥) w/ importance 0.0323842246730518
+Feature P(Onset|Hanzi=艾) w/ importance 0.019752282832622592
+Feature P(Onset|Hanzi=阿) w/ importance 0.0
+Feature P(Onset|Hanzi=以) w/ importance 0.0
+Feature P(Onset|Hanzi=伊) w/ importance 0.0
+Feature P(Onset|Hanzi=亚) w/ importance 0.0
+Feature P(Onset|Hanzi=埃) w/ importance 0.0
+Feature P(Onset|Hanzi=欧) w/ importance 0.0
+Feature P(Onset|Hanzi=安) w/ importance 0.0
+Feature P(Onset|Hanzi=爱) w/ importance 0.0
+Feature P(Onset|Hanzi=秋) w/ importance 0.0
+Feature P(Onset|Hanzi=天) w/ importance 0.0
+Feature P(Onset|Hanzi=雅) w/ importance 0.0
+Feature P(Onset|Hanzi=猎) w/ importance 0.0
+Feature P(Onset|Hanzi=杜) w/ importance 0.0
+Feature P(Onset|Hanzi=夏) w/ importance 0.0
+Feature P(Onset|Hanzi=象) w/ importance 0.0
+Feature P(Onset|Hanzi=恩) w/ importance 0.0
+Feature P(Onset|Hanzi=尤) w/ importance 0.0
+Feature P(Onset|Hanzi=珠) w/ importance 0.0
+Feature P(Onset|Hanzi=靛) w/ importance 0.0
+Feature P(Onset|Hanzi=印) w/ importance 0.0
+Feature P(Onset|Hanzi=厄) w/ importance 0.0
+Feature P(Onset|Hanzi=乌) w/ importance 0.0
+Feature P(Hanzi=奥|Onset) w/ importance 0.4242658644281036
+Feature P(Hanzi=艾|Onset) w/ importance 0.0
+Feature P(Hanzi=阿|Onset) w/ importance 0.22106166907070035
+Feature P(Hanzi=以|Onset) w/ importance 0.0
+Feature P(Hanzi=伊|Onset) w/ importance 0.0
+Feature P(Hanzi=亚|Onset) w/ importance 0.09793690738018367
+Feature P(Hanzi=埃|Onset) w/ importance 0.0
+Feature P(Hanzi=欧|Onset) w/ importance 0.0
+Feature P(Hanzi=安|Onset) w/ importance 0.0
+Feature P(Hanzi=爱|Onset) w/ importance 0.0
+Feature P(Hanzi=秋|Onset) w/ importance 0.0
+Feature P(Hanzi=天|Onset) w/ importance 0.0
+Feature P(Hanzi=雅|Onset) w/ importance 0.0
+Feature P(Hanzi=猎|Onset) w/ importance 0.0
+Feature P(Hanzi=杜|Onset) w/ importance 0.0
+Feature P(Hanzi=夏|Onset) w/ importance 0.0
+Feature P(Hanzi=象|Onset) w/ importance 0.0
+Feature P(Hanzi=恩|Onset) w/ importance 0.0
+Feature P(Hanzi=尤|Onset) w/ importance 0.0
+Feature P(Hanzi=珠|Onset) w/ importance 0.0
+Feature P(Hanzi=靛|Onset) w/ importance 0.0
+Feature P(Hanzi=印|Onset) w/ importance 0.0
+Feature P(Hanzi=厄|Onset) w/ importance 0.0
+Feature P(Hanzi=乌|Onset) w/ importance 0.0
+DecisionTreeClassifier #4:
+Feature Onset N(V) w/ importance 0.0
+Feature Onset Length w/ importance 0.0
+Feature close w/ importance 0.0
+Feature near-close w/ importance 0.0
+Feature close-mid w/ importance 0.41042849767682
+Feature mid w/ importance 0.0
+Feature open-mid w/ importance 0.0
+Feature near-open w/ importance 0.0
+Feature open w/ importance 0.0
+Feature front w/ importance 0.0
+Feature central w/ importance 0.0
+Feature back w/ importance 0.0
+Feature Onset N(C) w/ importance 0.0
+Feature initial_stress_en w/ importance 0.0
+Feature first_stress_en w/ importance 0.0
+Feature F(Onset) w/ importance 0.0
+Feature P(Onset|T=1) w/ importance 0.0
+Feature P(Onset|T=2) w/ importance 0.0
+Feature P(Onset|T=3) w/ importance 0.0
+Feature P(Onset|T=4) w/ importance 0.0
+Feature P(T=1|Onset) w/ importance 0.0
+Feature P(T=2|Onset) w/ importance 0.0
+Feature P(T=3|Onset) w/ importance 0.0
+Feature P(T=4|Onset) w/ importance 0.0
+Feature P(Onset|Hanzi=奥) w/ importance 0.0
+Feature P(Onset|Hanzi=艾) w/ importance 0.0
+Feature P(Onset|Hanzi=阿) w/ importance 0.0
+Feature P(Onset|Hanzi=以) w/ importance 0.0
+Feature P(Onset|Hanzi=伊) w/ importance 0.0
+Feature P(Onset|Hanzi=亚) w/ importance 0.0
+Feature P(Onset|Hanzi=埃) w/ importance 0.0
+Feature P(Onset|Hanzi=欧) w/ importance 0.0
+Feature P(Onset|Hanzi=安) w/ importance 0.0
+Feature P(Onset|Hanzi=爱) w/ importance 0.0
+Feature P(Onset|Hanzi=秋) w/ importance 0.0
+Feature P(Onset|Hanzi=天) w/ importance 0.0
+Feature P(Onset|Hanzi=雅) w/ importance 0.0
+Feature P(Onset|Hanzi=猎) w/ importance 0.0
+Feature P(Onset|Hanzi=杜) w/ importance 0.0
+Feature P(Onset|Hanzi=夏) w/ importance 0.0
+Feature P(Onset|Hanzi=象) w/ importance 0.0
+Feature P(Onset|Hanzi=恩) w/ importance 0.0
+Feature P(Onset|Hanzi=尤) w/ importance 0.0
+Feature P(Onset|Hanzi=珠) w/ importance 0.0
+Feature P(Onset|Hanzi=靛) w/ importance 0.0
+Feature P(Onset|Hanzi=印) w/ importance 0.0
+Feature P(Onset|Hanzi=厄) w/ importance 0.0
+Feature P(Onset|Hanzi=乌) w/ importance 0.0
+Feature P(Hanzi=奥|Onset) w/ importance 0.58957150232318
+Feature P(Hanzi=艾|Onset) w/ importance 0.0
+Feature P(Hanzi=阿|Onset) w/ importance 0.0
+Feature P(Hanzi=以|Onset) w/ importance 0.0
+Feature P(Hanzi=伊|Onset) w/ importance 0.0
+Feature P(Hanzi=亚|Onset) w/ importance 0.0
+Feature P(Hanzi=埃|Onset) w/ importance 0.0
+Feature P(Hanzi=欧|Onset) w/ importance 0.0
+Feature P(Hanzi=安|Onset) w/ importance 0.0
+Feature P(Hanzi=爱|Onset) w/ importance 0.0
+Feature P(Hanzi=秋|Onset) w/ importance 0.0
+Feature P(Hanzi=天|Onset) w/ importance 0.0
+Feature P(Hanzi=雅|Onset) w/ importance 0.0
+Feature P(Hanzi=猎|Onset) w/ importance 0.0
+Feature P(Hanzi=杜|Onset) w/ importance 0.0
+Feature P(Hanzi=夏|Onset) w/ importance 0.0
+Feature P(Hanzi=象|Onset) w/ importance 0.0
+Feature P(Hanzi=恩|Onset) w/ importance 0.0
+Feature P(Hanzi=尤|Onset) w/ importance 0.0
+Feature P(Hanzi=珠|Onset) w/ importance 0.0
+Feature P(Hanzi=靛|Onset) w/ importance 0.0
+Feature P(Hanzi=印|Onset) w/ importance 0.0
+Feature P(Hanzi=厄|Onset) w/ importance 0.0
+Feature P(Hanzi=乌|Onset) w/ importance 0.0
+DecisionTreeClassifier #5:
+Feature Onset N(V) w/ importance 0.0
+Feature Onset Length w/ importance 0.0
+Feature close w/ importance 0.0
+Feature near-close w/ importance 0.0
+Feature close-mid w/ importance 0.0
+Feature mid w/ importance 0.0
+Feature open-mid w/ importance 0.0
+Feature near-open w/ importance 0.0
+Feature open w/ importance 0.0
+Feature front w/ importance 0.0
+Feature central w/ importance 0.0
+Feature back w/ importance 0.0
+Feature Onset N(C) w/ importance 0.0
+Feature initial_stress_en w/ importance 0.0
+Feature first_stress_en w/ importance 0.0
+Feature F(Onset) w/ importance 1.0
+Feature P(Onset|T=1) w/ importance 0.0
+Feature P(Onset|T=2) w/ importance 0.0
+Feature P(Onset|T=3) w/ importance 0.0
+Feature P(Onset|T=4) w/ importance 0.0
+Feature P(T=1|Onset) w/ importance 0.0
+Feature P(T=2|Onset) w/ importance 0.0
+Feature P(T=3|Onset) w/ importance 0.0
+Feature P(T=4|Onset) w/ importance 0.0
+Feature P(Onset|Hanzi=奥) w/ importance 0.0
+Feature P(Onset|Hanzi=艾) w/ importance 0.0
+Feature P(Onset|Hanzi=阿) w/ importance 0.0
+Feature P(Onset|Hanzi=以) w/ importance 0.0
+Feature P(Onset|Hanzi=伊) w/ importance 0.0
+Feature P(Onset|Hanzi=亚) w/ importance 0.0
+Feature P(Onset|Hanzi=埃) w/ importance 0.0
+Feature P(Onset|Hanzi=欧) w/ importance 0.0
+Feature P(Onset|Hanzi=安) w/ importance 0.0
+Feature P(Onset|Hanzi=爱) w/ importance 0.0
+Feature P(Onset|Hanzi=秋) w/ importance 0.0
+Feature P(Onset|Hanzi=天) w/ importance 0.0
+Feature P(Onset|Hanzi=雅) w/ importance 0.0
+Feature P(Onset|Hanzi=猎) w/ importance 0.0
+Feature P(Onset|Hanzi=杜) w/ importance 0.0
+Feature P(Onset|Hanzi=夏) w/ importance 0.0
+Feature P(Onset|Hanzi=象) w/ importance 0.0
+Feature P(Onset|Hanzi=恩) w/ importance 0.0
+Feature P(Onset|Hanzi=尤) w/ importance 0.0
+Feature P(Onset|Hanzi=珠) w/ importance 0.0
+Feature P(Onset|Hanzi=靛) w/ importance 0.0
+Feature P(Onset|Hanzi=印) w/ importance 0.0
+Feature P(Onset|Hanzi=厄) w/ importance 0.0
+Feature P(Onset|Hanzi=乌) w/ importance 0.0
+Feature P(Hanzi=奥|Onset) w/ importance 0.0
+Feature P(Hanzi=艾|Onset) w/ importance 0.0
+Feature P(Hanzi=阿|Onset) w/ importance 0.0
+Feature P(Hanzi=以|Onset) w/ importance 0.0
+Feature P(Hanzi=伊|Onset) w/ importance 0.0
+Feature P(Hanzi=亚|Onset) w/ importance 0.0
+Feature P(Hanzi=埃|Onset) w/ importance 0.0
+Feature P(Hanzi=欧|Onset) w/ importance 0.0
+Feature P(Hanzi=安|Onset) w/ importance 0.0
+Feature P(Hanzi=爱|Onset) w/ importance 0.0
+Feature P(Hanzi=秋|Onset) w/ importance 0.0
+Feature P(Hanzi=天|Onset) w/ importance 0.0
+Feature P(Hanzi=雅|Onset) w/ importance 0.0
+Feature P(Hanzi=猎|Onset) w/ importance 0.0
+Feature P(Hanzi=杜|Onset) w/ importance 0.0
+Feature P(Hanzi=夏|Onset) w/ importance 0.0
+Feature P(Hanzi=象|Onset) w/ importance 0.0
+Feature P(Hanzi=恩|Onset) w/ importance 0.0
+Feature P(Hanzi=尤|Onset) w/ importance 0.0
+Feature P(Hanzi=珠|Onset) w/ importance 0.0
+Feature P(Hanzi=靛|Onset) w/ importance 0.0
+Feature P(Hanzi=印|Onset) w/ importance 0.0
+Feature P(Hanzi=厄|Onset) w/ importance 0.0
+Feature P(Hanzi=乌|Onset) w/ importance 0.0
+              precision    recall  f1-score   support
+
+           1       0.74      0.85      0.79        65
+           2       1.00      1.00      1.00         1
+           3       0.00      0.00      0.00         5
+           4       0.65      0.57      0.61        35
+
+    accuracy                           0.72       106
+   macro avg       0.60      0.60      0.60       106
+weighted avg       0.68      0.72      0.69       106
